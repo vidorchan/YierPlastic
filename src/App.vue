@@ -1,9 +1,15 @@
 <template>
     <div id="app">
-        <img src="/static/images/product/20b65585c7214-1acea4d9a5104182511.jpeg">
-        <div>
-            <el-button @click="switchLang">{{$t('message.hello')}}</el-button>
-        </div>
+        <el-container>
+            <el-header>
+                <div>
+                    <el-button @click="switchLang">{{$t('message.hello')}}</el-button>
+                </div>
+            </el-header>
+            <el-main>Main</el-main>
+            <el-footer>Footer</el-footer>
+        </el-container>
+
     </div>
 </template>
 
@@ -21,5 +27,23 @@
     #app {
         font-family: Helvetica, sans-serif;
         text-align: center;
+    }
+
+    .el-header, .el-footer {
+        background-color: #B3C0D1;
+        color: #333;
+        text-align: center;
+        line-height: 60px;
+    }
+
+    .el-main {
+        background-color: #E9EEF3;
+        color: #333;
+        text-align: center;
+        line-height: 160px;
+    }
+
+    body > .el-container {
+        margin-bottom: 40px;
     }
 </style>
