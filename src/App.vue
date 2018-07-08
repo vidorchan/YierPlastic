@@ -9,26 +9,25 @@
                     </el-carousel-item>
                 </el-carousel>
                 <el-row class="margin150">
-                    <p><a href="about.html">About Us<span></span></a></p>
+                    <p><a href="about.html">{{ $t('message.aboutus')}}<span></span></a></p>
                     <div class="homeAbout">
-                        SHAOXING YIER PACKAGING CO., LTD. is professional factories specializing in Cosmetic packaging include acrylic jar, acrylic bottle,PP jars. Factory land size is 6000M2 .Main market is Europe, American and Southeast Asia.
-                        Yier has a professional team of R&D, Mold design and make, injection, silk screen printing, hot stamping, assembling. We also have relative modern machine and we produce with ISO9001 quality management system. We sure we could supply you quality packaging.
+                        {{ $t('message.homeAboutDesc')}}
                     </div>
                     <div style="margin-top: 20px">
-                        <el-button type="warning" round>Check More</el-button>
+                        <el-button type="warning" round>{{ $t('message.checkmore')}}</el-button>
                     </div>
                 </el-row>
                 <!--<el-row class="margin150">-->
                 <div id="pro">
                     <div style="width:1200px;margin: 0 auto;clear: both;">
-                    <div class="title"><a href="product.html">Products Overview<span></span></a></div>
+                    <div class="title"><a href="product.html">{{ $t('message.po')}}<span></span></a></div>
                     <div class="proContainer">
                         <div class="hd">
-                            <a href="">Airless Bottle</a>
-                            <a href="">PET Bottle</a>
-                            <a href="">Cream Jar</a>
-                            <a href="">Travel Kit</a>
-                            <a href="">More Categories</a>
+                            <a href="">{{ $t('message.ab')}}</a>
+                            <a href="">{{ $t('message.pet')}}</a>
+                            <a href="">{{ $t('message.cj')}}</a>
+                            <a href="">{{ $t('message.tk')}}</a>
+                            <a href="">{{ $t('message.mc')}}</a>
                         </div>
                         <div class="bd">
                             <div class="tempWrap" style="overflow:hidden; position:relative; width:1250px">
@@ -67,14 +66,14 @@
                 <el-row class="homeQuality">
                     <div style="height: 140px; position: relative; padding-top: 42px;width: 1200px;margin: 0 auto;">
                         <div class="qualityDes">
-                            <p>Yier has a professional team of R&D, Mold design and make, injection, silk screen printing, hot stamping, assembling. We also have relative modern machine and we produce with ISO9001 quality management system. </p>
+                            <p>{{ $t('message.homeQmDesc')}}</p>
                         </div>
                         <img src="/static/images/quality-img.png"/>
-                        <el-button round class="qualityBut">Quality Management</el-button>
+                        <el-button round class="qualityBut">{{ $t('message.qm')}}</el-button>
                     </div>
                 </el-row>
                 <el-row style="margin-top: 42px;" class="homeNews">
-                    <p><a href="news.html">News<span></span></a></p>
+                    <p><a href="news.html">{{ $t('message.news')}}<span></span></a></p>
                     <div style="width: 1200px; margin: 0 auto; margin-top: 42px;">
                         <el-col :span="12">
                             <a href="news.html">
@@ -86,12 +85,12 @@
                                 <li v-for="newIndex in homeNews">
                                     <a href="">
                                         <div class="date">
-                                            <span class="monthD">{{ newIndex.date.month}} / {{ newIndex.date.day}}</span>
-                                            <span class="year">{{ newIndex.date.year}}</span>
+                                            <span class="monthD">{{ newIndex.date.month }} / {{ newIndex.date.day }}</span>
+                                            <span class="year">{{ newIndex.date.year }}</span>
                                         </div>
                                         <div class="newsDesc">
-                                            <span>{{newIndex.title}}</span>
-                                            <div class="newsContent">{{newIndex.content}}</div>
+                                            <span>{{ newIndex.title }}</span>
+                                            <div class="newsContent">{{ newIndex.content }}</div>
                                         </div>
                                     </a>
                                 </li>
@@ -152,9 +151,9 @@
                 C4List: [],
                 C5List: [],
                 homeNews: [
-                    {title: 'HelloWorld', content: 'Qjdbw dhdw fwufwd wih wihdiwhf wfiwe fwh', date: {year: '2018', month: '03', day: '23'}},
-                    {title: 'Time', content: 'Now time is Clock...', date: {year: '2019', month: '12', day: '03'}},
-                    {title: 'Bed', content: 'I should go to bed', date: {year: '2017', month: '09', day: '06'}}
+                    {title: this.$t('message.homeN1T'), content: this.$t('message.homeN1D'), date: {year: '2018', month: '03', day: '23'}},
+                    {title: this.$t('message.homeN2T'), content: this.$t('message.homeN2D'), date: {year: '2019', month: '12', day: '03'}},
+                    {title: this.$t('message.homeN3T'), content: this.$t('message.homeN3D'), date: {year: '2017', month: '09', day: '06'}}
                 ]
             }
         }
@@ -332,7 +331,7 @@
 
     /* home page quality */
     .homeQuality {
-        background: url("/static/images/quality-bg.jpg") center no-repeat;
+        background: url('/static/images/quality-bg.jpg') center no-repeat;
         margin-top: 96px;
         width: 100%;
         height: 192px;
