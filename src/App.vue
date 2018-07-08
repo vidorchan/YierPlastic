@@ -1,47 +1,10 @@
 <template>
     <div id="app">
         <el-container>
-            <el-header style="height: 100px">
-                <div class="headerContainer">
-                    <div style="float: right">
-                        <div style="text-align: right; margin-top: 5px;">
-                            <span class="el-icon-phone">+86 0575-82972298</span>
-                            <span class="lang-tab">
-                                <a class="tab-en"></a>
-                                <a class="tab-cn"></a>
-                            </span>
-                        </div>
-                        <el-menu :default-active="activeIndex" style="border: none" mode="horizontal" @select="handleSelect">
-                            <el-menu-item index="1">Home</el-menu-item>
-                            <el-submenu index="2">
-                                <template slot="title">About Us</template>
-                                <el-menu-item index="2-1">Company Overview</el-menu-item>
-                                <el-menu-item index="2-2">Company Devices</el-menu-item>
-                                <el-menu-item index="2-3">Certificate</el-menu-item>
-                                <el-menu-item index="2-4">Certificate</el-menu-item>
-                            </el-submenu>
-                            <el-submenu index="3">
-                                <template slot="title">new arrival</template>
-                                <el-menu-item index="3-1">acrylic cosmetic jar</el-menu-item>
-                                <el-menu-item index="3-2">acrylic cosmetic bottle</el-menu-item>
-                                <el-menu-item index="3-3">Airless bottle</el-menu-item>
-                                <el-menu-item index="3-4">airless pump jar</el-menu-item>
-                                <el-menu-item index="3-5">PP airless bottle</el-menu-item>
-                                <el-menu-item index="3-6">See all categories</el-menu-item>
-                            </el-submenu>
-                            <el-menu-item index="4">Quality Management</el-menu-item>
-                            <el-menu-item index="5">News</el-menu-item>
-                            <el-menu-item index="6">Contact Us</el-menu-item>
-                        </el-menu>
-                    </div>
-                </div>
-                <!--<div class="header-container">-->
-                    <!--<el-button @click="switchLang">{{$t('message.hello')}}</el-button>-->
-                <!--</div>-->
-            </el-header>
+            <Nav></Nav>
             <el-main>
                 <el-carousel height="700px">
-                    <el-carousel-item v-for="item in homePics" :key="item">
+                    <el-carousel-item v-for="item in homePics">
                          <img v-bind:src="item.src"/>
                     </el-carousel-item>
                 </el-carousel>
@@ -101,7 +64,6 @@
                     </div>
                     </div>
                 </div>
-                <!--</el-row>-->
                 <el-row class="homeQuality">
                     <div style="height: 140px; position: relative; padding-top: 42px;width: 1200px;margin: 0 auto;">
                         <div class="qualityDes">
@@ -110,7 +72,6 @@
                         <img src="/static/images/quality-img.png"/>
                         <el-button round class="qualityBut">Quality Management</el-button>
                     </div>
-
                 </el-row>
                 <el-row style="margin-top: 42px;" class="homeNews">
                     <p><a href="news.html">News<span></span></a></p>
@@ -140,10 +101,7 @@
                 </el-row>
             </el-main>
             <el-footer>
-                <p>
-                Address： fengHui industrial zone, shangyu, zhejiang, China&nbsp;&nbsp;&nbsp;&nbsp;Telephone: 86057582972298&nbsp;&nbsp;&nbsp;&nbsp;Website: <a href="https://yierplastic.en.alibaba.com" target="_blank">https://yierplastic.en.alibaba.com</a><br>
-                    Copyright © 2018 Shaoxing Shangyu Yier Plastics Co., Ltd. All Rights Reserve
-                </p>
+                <Foot></Foot>
             </el-footer>
         </el-container>
     </div>
@@ -151,9 +109,14 @@
 
 <script>
     import ElContainer from "element-ui/packages/container/src/main";
+    import Nav from "./components/Nav";
+    import Foot from "./components/Foot";
 
     export default {
-        components: {ElContainer},
+        components: {
+            ElContainer,
+            Nav,
+            Foot},
         methods: {
             switchLang() {
                 this.$i18n.locale === 'en' ? this.$i18n.locale = 'cn' : this.$i18n.locale = 'en'
