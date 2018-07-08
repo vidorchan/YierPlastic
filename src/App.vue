@@ -59,7 +59,7 @@
                 <div id="pro">
                     <div style="width:1200px;margin: 0 auto;clear: both;">
                     <div class="title"><a href="product.html">Products Overview<span></span></a></div>
-                    <div class="con">
+                    <div class="proContainer">
                         <div class="hd">
                             <a href="">Airless Bottle</a>
                             <a href="">PET Bottle</a>
@@ -310,18 +310,18 @@
         margin: 10px auto 0;
     }
 
-    .con {
+    .proContainer {
         margin-top: 40px;
         position: relative;
     }
 
-    .con .hd {
+    .proContainer .hd {
         width: 100%;
         height: 28px;
         text-align: center;
         margin-bottom: 40px;
     }
-    .con .hd a {
+    .proContainer .hd a {
         display: inline-block;
         padding: 0 26px;
         line-height: 28px;
@@ -330,22 +330,22 @@
         margin-left: 24px;
     }
 
-    .con .hd a.on {
+    .proContainer .hd a.on {
         background: #e46613;
         color: #fff;
     }
 
-    .con .hd a:first-child {
+    .proContainer .hd a:first-child {
         margin-left: 0;
     }
 
-    .con .bd {
+    .proContainer .bd {
         width: 100%;
         height: 443px;
         overflow: hidden;
     }
     
-    .con .bd li {
+    .proContainer .bd li {
         width: 264px;
         height: 200px;
         float: left;
@@ -353,7 +353,7 @@
         overflow: hidden;
     }
 
-    .con .bd li a {
+    .proContainer .bd li a {
         width: 262px;
         height: 198px;
         border: 1px solid #c5c6c7;
@@ -362,7 +362,7 @@
         display: block;
     }
 
-    .con .bd li a img {
+    .proContainer .bd li a img {
         width: 262px;
         height: 198px;
     }
