@@ -9,29 +9,30 @@
                         <a href="javascript:void(0)" class="tab-cn" @click="specifyCn"></a>
                     </span>
                 </div>
-                <el-menu :default-active="activeIndex" style="border: none" mode="horizontal" @select="handleSelect" active-text-color="#e46613">
-                    <el-menu-item index="1">{{ $t('message.home')}}</el-menu-item>
-                    <el-submenu index="2">
+                <el-menu :default-active="this.$router.path" style="border: none" mode="horizontal"
+                         @select="handleSelect" active-text-color="#e46613" unique-opened router>
+                    <el-menu-item index="/">{{ $t('message.home')}}</el-menu-item>
+                    <el-submenu index="/com">
                         <template slot="title">{{ $t('message.aboutus')}}</template>
-                        <el-menu-item index="2-1">{{ $t('message.co')}}</el-menu-item>
-                        <el-menu-item index="2-2">{{ $t('message.cd')}}</el-menu-item>
-                        <el-menu-item index="2-3">{{ $t('message.certificates')}}</el-menu-item>
-                        <el-menu-item index="2-4">{{ $t('message.tw')}}</el-menu-item>
+                        <el-menu-item index="/company">{{ $t('message.co')}}</el-menu-item>
+                        <el-menu-item index="/device">{{ $t('message.cd')}}</el-menu-item>
+                        <el-menu-item index="/certificates">{{ $t('message.certificates')}}</el-menu-item>
+                        <el-menu-item index="/team">{{ $t('message.tw')}}</el-menu-item>
                     </el-submenu>
-                    <el-submenu index="3">
+                    <el-submenu index="/pro">
                         <template slot="title">{{ $t('message.po')}}</template>
-                        <el-menu-item index="3-1">{{ $t('message.na')}}</el-menu-item>
-                        <el-menu-item index="3-2">{{ $t('message.acj')}}</el-menu-item>
-                        <el-menu-item index="3-3">{{ $t('message.acb')}}</el-menu-item>
-                        <el-menu-item index="3-4">{{ $t('message.ab')}}</el-menu-item>
-                        <el-menu-item index="3-5">{{ $t('message.fsb')}}</el-menu-item>
-                        <el-menu-item index="3-6">{{ $t('message.apj')}}</el-menu-item>
-                        <el-menu-item index="3-7">{{ $t('message.pab')}}</el-menu-item>
-                        <el-menu-item index="3-8">{{ $t('message.allcategories')}}</el-menu-item>
+                        <el-menu-item index="/na">{{ $t('message.na')}}</el-menu-item>
+                        <el-menu-item index="/acj">{{ $t('message.acj')}}</el-menu-item>
+                        <el-menu-item index="/acb">{{ $t('message.acb')}}</el-menu-item>
+                        <el-menu-item index="/ab">{{ $t('message.ab')}}</el-menu-item>
+                        <el-menu-item index="/fsb">{{ $t('message.fsb')}}</el-menu-item>
+                        <el-menu-item index="/apj">{{ $t('message.apj')}}</el-menu-item>
+                        <el-menu-item index="/pab">{{ $t('message.pab')}}</el-menu-item>
+                        <el-menu-item index="/ac">{{ $t('message.allcategories')}}</el-menu-item>
                     </el-submenu>
-                    <el-menu-item index="4">{{ $t('message.qm')}}</el-menu-item>
-                    <el-menu-item index="5">{{ $t('message.news')}}</el-menu-item>
-                    <el-menu-item index="6">{{ $t('message.cu')}}</el-menu-item>
+                    <el-menu-item index="/qm">{{ $t('message.qm')}}</el-menu-item>
+                    <el-menu-item index="/news">{{ $t('message.news')}}</el-menu-item>
+                    <el-menu-item index="/cu">{{ $t('message.cu')}}</el-menu-item>
                 </el-menu>
             </div>
         </div>
@@ -43,25 +44,25 @@
 
 <script>
 
-   export default {
-       name: 'Nav',
-       data() {
+    export default {
+        name: 'Nav',
+        data() {
             return {
                 activeIndex: '1'
             }
-       },
-       methods: {
-           handleSelect(key, keyPath) {
-               console.log(key, keyPath);
-           },
-           specifyEn() {
-               this.$i18n.locale = 'en'
-           },
-           specifyCn() {
-               this.$i18n.locale = 'cn'
-           }
-       }
-   }
+        },
+        methods: {
+            handleSelect(key, keyPath) {
+                console.log(key, keyPath);
+            },
+            specifyEn() {
+                this.$i18n.locale = 'en'
+            },
+            specifyCn() {
+                this.$i18n.locale = 'cn'
+            }
+        }
+    }
 </script>
 
 <style>
