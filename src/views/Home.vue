@@ -86,8 +86,8 @@
                                     <span class="year">{{ newIndex.date.year }}</span>
                                 </div>
                                 <div class="newsDesc">
-                                    <span>{{ newIndex.title }}</span>
-                                    <div class="newsContent">{{ newIndex.content }}</div>
+                                    <span>{{ $t(newIndex.title) }}</span>
+                                    <div class="newsContent">{{ $t(newIndex.content) }}</div>
                                 </div>
                             </a>
                         </li>
@@ -130,9 +130,9 @@
                 C4List: [],
                 C5List: [],
                 homeNews: [
-                    {title: this.$t('message.homeN1T'), content: this.$t('message.homeN1D'), date: {year: '2018', month: '03', day: '23'}},
-                    {title: this.$t('message.homeN2T'), content: this.$t('message.homeN2D'), date: {year: '2019', month: '12', day: '03'}},
-                    {title: this.$t('message.homeN3T'), content: this.$t('message.homeN3D'), date: {year: '2017', month: '09', day: '06'}}
+                    {title: 'message.homeN1T', content: 'message.homeN1D', date: {year: '2018', month: '03', day: '23'}},
+                    {title: 'message.homeN2T', content: 'message.homeN2D', date: {year: '2019', month: '12', day: '03'}},
+                    {title: 'message.homeN3T', content: 'message.homeN3D', date: {year: '2017', month: '09', day: '06'}}
                 ]
             }
         }
