@@ -55,8 +55,8 @@ export default new Router({
             component: News
         },
         {
-            path: '/cu',
-            name: 'cu',
+            path: '/contact',
+            name: 'contact',
             component: Contact
         }
     ],

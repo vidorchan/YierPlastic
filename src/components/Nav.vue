@@ -56,10 +56,10 @@
                 console.log(key, keyPath);
             },
             specifyEn() {
-                this.$i18n.locale = 'en'
+                window.localStorage.lang  = this.$i18n.locale = 'en';
             },
             specifyCn() {
-                this.$i18n.locale = 'cn'
+                window.localStorage.lang = this.$i18n.locale = 'cn';
             }
         }
     }
