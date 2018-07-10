@@ -1,6 +1,6 @@
 <template>
     <p>
-        QuanlityManagement pages
+        QualityManagement pages
     </p>
 </template>
 

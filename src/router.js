@@ -6,7 +6,7 @@ import Device from './views/Device'
 import Certificates from './views/Certificates'
 import Team from './views/Team'
 import Products from './views/Products'
-import QuanlityManagement from './views/QuanlityManagement'
+import QualityManagement from './views/QualityManagement'
 import News from './views/News'
 import Contact from './views/Contact'
 
@@ -47,7 +47,7 @@ export default new Router({
         {
             path: '/qm',
             name: 'qm',
-            component: QuanlityManagement
+            component: QualityManagement
         },
         {
             path: '/news',
@@ -59,6 +59,6 @@ export default new Router({
             name: 'contact',
             component: Contact
         }
-    ],
-    mode: 'history'
+    ]
+    // mode: 'history'
 })
