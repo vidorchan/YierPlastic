@@ -1,7 +1,7 @@
 <template>
     <div>
         <p style="overflow: hidden"><img src="/static/images/company.jpg"/></p>
-        <div id="company">
+        <div id="company" class="pageCon">
             <el-tabs type="border-card">
                 <el-tab-pane v-bind:label="$t('message.aboutus').toUpperCase()">
                     <p v-if="this.$i18n.locale == 'cn'">
@@ -27,6 +27,7 @@
                         Customer satisfaction will always be one of the top goals of our company as well as motivation to continuously improve.Our knowledge ,experience ,and attention to detail will continue to bring quality products to the market .
                         We take the time to this so we can ensure that our customers have the highest quality plastics made to suit their needs .<br/>
                     </p>
+                    <p><img src=""/>图片</p>
                 </el-tab-pane>
             </el-tabs>
         </div>
@@ -44,12 +45,12 @@
 </script>
 
 <style>
-    #company {
+    .pageCon {
         width: 70%;
         margin: 20px auto;
     }
     
-    #company .el-tab-pane{
+    .pageCon .el-tab-pane{
         font-size: 12px;
         text-align: left;
         line-height: 24px;
