@@ -21,14 +21,12 @@
                     </el-submenu>
                     <el-submenu index="/pro">
                         <template slot="title">{{ $t('message.po')}}</template>
-                        <el-menu-item index="/na">{{ $t('message.na')}}</el-menu-item>
-                        <el-menu-item index="/ab?cid=1">{{ $t('message.acj')}}</el-menu-item>
-                        <el-menu-item index="/ab?cid=2">{{ $t('message.acb')}}</el-menu-item>
-                        <el-menu-item index="/ab?cid=3">{{ $t('message.ab')}}</el-menu-item>
-                        <el-menu-item index="/ab?cid=4">{{ $t('message.fsb')}}</el-menu-item>
-                        <el-menu-item index="/ab?cid=5">{{ $t('message.apj')}}</el-menu-item>
-                        <el-menu-item index="/ab?cid=6">{{ $t('message.pab')}}</el-menu-item>
-                        <!--<el-menu-item index="/ac">{{ $t('message.allcategories')}}</el-menu-item>-->
+                        <el-menu-item index="/products?cid=0">{{ $t('message.na')}}</el-menu-item>
+                        <el-menu-item index="/products?cid=1">{{ $t('message.is')}}</el-menu-item>
+                        <el-menu-item index="/products?cid=2">{{ $t('message.ab')}}</el-menu-item>
+                        <el-menu-item index="/products?cid=3">{{ $t('message.fl')}}</el-menu-item>
+                        <el-menu-item index="/products?cid=4">{{ $t('message.lb')}}</el-menu-item>
+                        <el-menu-item index="/products?cid=5">{{ $t('message.cj')}}</el-menu-item>
                     </el-submenu>
                     <el-menu-item index="/qm">{{ $t('message.qm')}}</el-menu-item>
                     <el-menu-item index="/news">{{ $t('message.news')}}</el-menu-item>

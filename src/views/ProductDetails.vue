@@ -101,11 +101,19 @@
                     // 请求失败回调
                     console.log("json data failure");
                 });
+            },
+            specifyEn() {
+                window.localStorage.lang  = this.$i18n.locale = 'en';
+                console.log("new fun");
+            },
+            specifyCn() {
+                window.localStorage.lang = this.$i18n.locale = 'cn';
+                console.log("new ffff");
             }
         },
         watch: {
             "$route": "fetchDate",
-            "$i18n": "fetchData"
+            "this.$i18n.locale": "fetchData"
         },
         mounted() {
             this.fetchDate();

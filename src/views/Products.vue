@@ -8,7 +8,6 @@
                 <div class="holder"></div>
                 <ul id="itemContainer">
                     <li v-for="pro in productList">
-                        <!--<a :href="'/proDetails?cid=' + cid + '&pid=' + pro.pid"><img v-bind:src="pro.imgs[0]" /></a>-->
                         <router-link :to="'/proDetails?cid=' + cid + '&pid=' + pro.pid">
                             <img v-bind:src="pro.imgs[0]" />
                         </router-link>
@@ -76,7 +75,7 @@
         watch: {
             "$route": "fetchDate",
         },
-        create() {
+        mounted() {
             this.fetchDate();
         }
     }

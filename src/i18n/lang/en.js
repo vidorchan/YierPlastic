@@ -9,14 +9,12 @@ const en = {
         certificates: 'Certificates',
         tw: 'Team Work',
         po: 'Product Overview',
-        na: 'New Arrival',
-        acj: 'acrylic cosmetic jar',
-        acb: 'acrylic cosmetic bottle',
-        ab: 'Airless bottle',
-        fsb: 'Family series bottle',
-        apj: 'airless pump jar',
-        pab: 'PP airless bottle',
-        allcategories: 'See all categories',
+        na: 'New Arrival',//0
+        is: 'In Stock',//1
+        ab: 'Airless Bottle',//2
+        fl: 'Family look',//3
+        lb: 'lotion bottle',//4
+        cj: 'Cream Jar',//5
         qm: 'Quality Management',
         news: 'News',
         qm: 'Quality Management',
