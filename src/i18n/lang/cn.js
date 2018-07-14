@@ -40,6 +40,23 @@ const cn = {
         telphone: '电话:',
         website: '网址:'
     },
+    product: {
+        details: '商品详情',
+        params: '规格参数',
+        material: '材质',
+        materialV: '塑料',
+        plasticType: '塑料类型',
+        industrialUse: '工业用途',
+        use: '用法',
+        sealingType: '密封类型',
+        surfaceHandling: '表面处理',
+        place: '原产地',
+        placeV: '中国大陆-浙江',
+        brand: '品牌',
+        brandV: '溢尔',
+        modelN: '模型',
+        color: '颜色'
+    },
     ...zhLocale
 }
 

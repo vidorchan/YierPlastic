@@ -14,3 +14,7 @@
         }
     }
 </script>
+
+<style scoped>
+    @import "/static/css/pages.css";
+</style>

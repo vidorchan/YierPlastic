@@ -4,8 +4,15 @@ import ElementUI from 'element-ui'
 import App from './App.vue'
 import i18n from './i18n/i18n';
 import router from './router';
+import VueResource from 'vue-resource'
+// import api from './api/api'
+// import common from './utils/common'
 
 Vue.use(ElementUI)
+Vue.use(VueResource)
+
+// Vue.prototype.api = api
+// Vue.prototype.common = common
 
 new Vue({
   el: '#app',

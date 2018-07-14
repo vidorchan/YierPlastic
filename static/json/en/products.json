@@ -1,0 +1,148 @@
+[
+    {
+        "cid": 1,
+        "cname": "airless bottle",
+        "products": [
+            {
+                "pid": 1,
+                "pname": "YE-A-07",
+                "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-07/42-1.jpg",
+                    "/static/images/product/airlessbottle/YE-A-07/42-2.jpg",
+                    "/static/images/product/airlessbottle/YE-A-07/42-3.jpg",
+                    "/static/images/product/airlessbottle/YE-A-07/42-4.jpg",
+                    "/static/images/product/airlessbottle/YE-A-07/42-5.jpg"
+                ],
+                "params": {
+                    "plasticType": "PMMA",
+                    "industrialUse": "cosmetics",
+                    "use": "Skin Care Cream",
+                    "sealingType": "Screw Cap",
+                    "surfaceHandling": "Screen Printing",
+                    "modelN": "YE-A-07",
+                    "color": "Any color"
+                }
+            },
+            {
+                "pid": 2,
+                "pname": "YE-A-08",
+                "ptitle": "Top quality professional cool white personal care airless cosmetic bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-08/38-3.jpg"
+                ]
+            },
+            {
+                "pid": 3,
+                "pname": "YE-A-09",
+                "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-09/4-3.jpg"
+                ]
+            },
+            {
+                "pid": 4,
+                "pname": "YE-A-10",
+                "ptitle": "Top quality professional cool white personal care airless cosmetic bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-10/7-1.jpg",
+                    "/static/images/product/airlessbottle/YE-A-10/7-2.jpg",
+                    "/static/images/product/airlessbottle/YE-A-10/9-1.jpg",
+                    "/static/images/product/airlessbottle/YE-A-10/9-2.jpg",
+                    "/static/images/product/airlessbottle/YE-A-10/9-3.jpg"
+                ]
+            },
+            {
+                "pid": 5,
+                "pname": "YE-A-11",
+                "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-11/8-1.jpg",
+                    "/static/images/product/airlessbottle/YE-A-11/8-2.jpg"
+                ]
+            },
+            {
+                "pid": 6,
+                "pname": "YE-A-12",
+                "ptitle": "Top quality professional cool white personal care airless cosmetic bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-12/6-1.jpg",
+                    "/static/images/product/airlessbottle/YE-A-12/6-2.jpg"
+                ]
+            },
+            {
+                "pid": 7,
+                "pname": "YE-A-12",
+                "ptitle": "Top quality professional cool white personal care airless cosmetic bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-12/6-1.jpg",
+                    "/static/images/product/airlessbottle/YE-A-12/6-2.jpg"
+                ]
+            },
+            {
+                "pid": 8,
+                "pname": "YE-A-12",
+                "ptitle": "Top quality professional cool white personal care airless cosmetic bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-12/6-1.jpg",
+                    "/static/images/product/airlessbottle/YE-A-12/6-2.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "cid": 2,
+        "cname": "airless bottle",
+        "products": [
+            {
+                "pid": 1,
+                "pname": "2YE-A-07",
+                "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-07/42-1.jpg",
+                    "/static/images/product/airlessbottle/YE-A-07/42-2.jpg",
+                    "/static/images/product/airlessbottle/YE-A-07/42-3.jpg",
+                    "/static/images/product/airlessbottle/YE-A-07/42-4.jpg",
+                    "/static/images/product/airlessbottle/YE-A-07/42-5.jpg"
+                ]
+            },
+            {
+                "pid": 2,
+                "pname": "2YE-A-08",
+                "ptitle": "Top quality professional cool white personal care airless cosmetic bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-08/38-3.jpg"
+                ]
+            },
+            {
+                "pid": 3,
+                "pname": "2YE-A-09",
+                "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-09/4-3.jpg"
+                ]
+            },
+            {
+                "pid": 4,
+                "pname": "2YE-A-10",
+                "ptitle": "Top quality professional cool white personal care airless cosmetic bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-10/7-1.jpg",
+                    "/static/images/product/airlessbottle/YE-A-10/7-2.jpg",
+                    "/static/images/product/airlessbottle/YE-A-10/9-1.jpg",
+                    "/static/images/product/airlessbottle/YE-A-10/9-2.jpg",
+                    "/static/images/product/airlessbottle/YE-A-10/9-3.jpg"
+                ]
+            },
+            {
+                "pid": 5,
+                "pname": "2YE-A-11",
+                "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
+                "imgs": [
+                    "/static/images/product/airlessbottle/YE-A-11/8-1.jpg",
+                    "/static/images/product/airlessbottle/YE-A-11/8-2.jpg"
+                ]
+            }
+        ]
+    }
+]

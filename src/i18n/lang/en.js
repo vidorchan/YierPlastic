@@ -42,6 +42,23 @@ const en = {
         telphone: 'Telphone:',
         website: 'Website:'
     },
+    product: {
+        details: 'Product Details',
+        params: 'Product Specifications',
+        material: 'Material',
+        materialV: 'Plastic',
+        plasticType: 'Plastic Type',
+        industrialUse: 'Industrial Use',
+        use: 'Use',
+        sealingType: 'Sealing Type',
+        surfaceHandling: 'Surface Handling',
+        place: 'Place of Origin',
+        placeV: 'Zhejiang, China (Mainland)',
+        brand: 'Brand Name',
+        brandV: 'YIER',
+        modelN: 'Model Number',
+        color: 'Color'
+    },
     ...enLocale
 }
 

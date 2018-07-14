@@ -6,6 +6,7 @@ import Device from './views/Device'
 import Certificates from './views/Certificates'
 import Team from './views/Team'
 import Products from './views/Products'
+import ProductDetails from './views/ProductDetails'
 import QualityManagement from './views/QualityManagement'
 import News from './views/News'
 import Contact from './views/Contact'
@@ -40,9 +41,14 @@ export default new Router({
             component: Team
         },
         {
-            path: '/ac',
-            name: 'ac',
+            path: '/ab',
+            name: 'ab',
             component: Products
+        },
+        {
+            path: '/proDetails',
+            name: 'proDetails',
+            component: ProductDetails
         },
         {
             path: '/qm',

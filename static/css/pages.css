@@ -1,0 +1,15 @@
+.pageCon {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.pageCon .el-tab-pane{
+    font-size: 12px;
+    text-align: left;
+    line-height: 24px;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+.el-menu-vertical-demo {
+    width: 20%;
+}
