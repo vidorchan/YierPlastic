@@ -4,8 +4,9 @@
         <div id="devices" class="pageCon">
             <el-tabs type="border-card">
                 <el-tab-pane v-bind:label="$t('message.cd').toUpperCase()">
-
-                    <p><img src=""/>图片</p>
+                    <p v-for="device in devices">
+                        <img v-bind:src="device" style="width: 100%"/>
+                    </p>
                 </el-tab-pane>
             </el-tabs>
         </div>
@@ -17,8 +18,19 @@
         name: 'Device',
         data() {
             return {
-
-            }
+                devices: [
+                '/static/images/device/baozhuangchejian.jpg',
+                '/static/images/device/mojuchejian.jpg',
+                '/static/images/device/pentuchejian.jpg',
+                '/static/images/device/yajichejian1.jpg',
+                '/static/images/device/yajichejian2.jpg',
+                '/static/images/device/yajichejian3.jpg',
+                '/static/images/device/yinshuanchejian1.jpg',
+                '/static/images/device/yinshuanchejian2.jpg',
+                '/static/images/device/zhijianjiqi1.jpg',
+                '/static/images/device/zhijianjiqi2.jpg'
+            ]
+        }
         }
     }
 </script>
