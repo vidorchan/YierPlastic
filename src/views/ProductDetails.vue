@@ -20,7 +20,7 @@
                             </dl>
                             <dl v-if="product.params.plasticType && product.params.plasticType != ''">
                                 <dt>{{$t('product.plasticType')}}:</dt>
-                                <dd>$t({{product.params.plasticType}})</dd>
+                                <dd>{{product.params.plasticType}}</dd>
                             </dl>
                             <dl v-if="product.params.industrialUse && product.params.industrialUse != ''">
                                 <dt>{{$t('product.industrialUse')}}:</dt>
