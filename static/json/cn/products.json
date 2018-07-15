@@ -30,7 +30,7 @@
                 "pname": "YE-A-08",
                 "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
                 "imgs": [
-                    "/static/images/product/2airlessbottle/YE-A-08/34-3.jpg"
+                    "/static/images/product/2airlessbottle/YE-A-08/38-3.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -582,9 +582,8 @@
                     "/static/images/product/5creamjar/YE-A-01/35-2.jpg"
                 ],
                 "params": {
-                    "plasticType": "PMMA",
+                    "plasticType": "中PMMA",
                     "industrialUse": "cosmetics",
-                    "use": "Skin Care Cream",
                     "sealingType": "Screw Cap",
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-01",
