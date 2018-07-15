@@ -55,6 +55,13 @@ const cn = {
         modelN: '模型',
         color: '颜色'
     },
+    team: {
+        name: '姓名',
+        telphone: '电话/微信',
+        qq: 'QQ',
+        email: '邮箱',
+        wechat: '微信'
+    },
     ...zhLocale
 }
 

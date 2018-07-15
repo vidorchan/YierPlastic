@@ -7,7 +7,7 @@ const en = {
         co: 'Company Overview',
         cd: 'Company Devices',
         certificates: 'Certificates',
-        tw: 'Team Work',
+        tw: 'Team',
         po: 'Product Overview',
         na: 'New Arrival',//0
         is: 'In Stock',//1
@@ -17,7 +17,6 @@ const en = {
         cj: 'Cream Jar',//5
         qm: 'Quality Management',
         news: 'News',
-        qm: 'Quality Management',
         cu: 'Contact Us',
         homeAboutDesc: 'SHAOXING YIER PACKAGING CO., LTD. is professional factories specializing in Cosmetic packaging include acrylic jar, acrylic bottle,PP jars. Factory land size is 6000M2 .Main market is Europe, American and Southeast Asia.\n' +
                                 'Yier has a professional team of R&D, Mold design and make, injection, silk screen printing, hot stamping, assembling. We also have relative modern machine and we produce with ISO9001 quality management system. We sure we could supply you quality packaging.',
@@ -56,6 +55,13 @@ const en = {
         brandV: 'YIER',
         modelN: 'Model Number',
         color: 'Color'
+    },
+    team: {
+        name: 'Name',
+        telphone: 'Telphone/WeChat',
+        qq: 'QQ',
+        email: 'Email',
+        wechat: 'WeChat'
     },
     ...enLocale
 }
