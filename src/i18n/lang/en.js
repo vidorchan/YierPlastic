@@ -18,8 +18,9 @@ const en = {
         qm: 'Quality Management',
         news: 'News',
         cu: 'Contact Us',
-        homeAboutDesc: 'SHAOXING YIER PACKAGING CO., LTD. is professional factories specializing in Cosmetic packaging include acrylic jar, acrylic bottle,PP jars. Factory land size is 6000M2 .Main market is Europe, American and Southeast Asia.\n' +
-                                'Yier has a professional team of R&D, Mold design and make, injection, silk screen printing, hot stamping, assembling. We also have relative modern machine and we produce with ISO9001 quality management system. We sure we could supply you quality packaging.',
+        homeAboutDesc: 'SHAOXING YIER  CO., LTD. a professional producer and supplier of cosmetics packaging as well as various plastics,including different kinds of plastic packaging.\n' +
+                                'Specifically,Shangyu yier plastic is committed to product design and development including :mold manufacturing,injecton,molding,painting ,packaging as well as testing,process research and development.\n' +
+        '                        Shangyu yier’s main product line includes acrylic lotion bottle,jar ,airless jar and a wide variety of other plastic products.',
         checkmore: 'Check More',
         pet: 'PET Bottle',
         cj: 'Cream Jar',
