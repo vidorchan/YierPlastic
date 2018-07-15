@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p style="overflow: hidden"><img src="/static/images/company.jpg"/></p>
+        <p><img src="/static/images/company.jpg" style="width:100%"/></p>
         <div class="pageCon">
             <el-tabs type="border-card">
                 <el-tab-pane v-bind:label="$t('message.tw').toUpperCase()">

@@ -12,13 +12,13 @@ const en = {
         na: 'New Arrival',//0
         is: 'In Stock',//1
         ab: 'Airless Bottle',//2
-        fl: 'Family look',//3
-        lb: 'lotion bottle',//4
+        fl: 'Family Look',//3
+        lb: 'Lotion Bottle',//4
         cj: 'Cream Jar',//5
         qm: 'Quality Management',
         news: 'News',
         cu: 'Contact Us',
-        homeAboutDesc: 'SHAOXING YIER  CO., LTD. a professional producer and supplier of cosmetics packaging as well as various plastics,including different kinds of plastic packaging.\n' +
+        homeAboutDesc: 'SHAOXING YIER  CO., LTD. is a professional producer and supplier of cosmetics packaging as well as various plastics,including different kinds of plastic packaging.\n' +
                                 'Specifically,Shangyu yier plastic is committed to product design and development including :mold manufacturing,injecton,molding,painting ,packaging as well as testing,process research and development.\n' +
         '                        Shangyu yier’s main product line includes acrylic lotion bottle,jar ,airless jar and a wide variety of other plastic products.',
         checkmore: 'Check More',

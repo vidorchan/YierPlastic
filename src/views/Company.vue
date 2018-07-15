@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p style="overflow: hidden"><img src="/static/images/company.jpg"/></p>
+        <p><img src="/static/images/company.jpg" style="width:100%"/></p>
         <div id="company" class="pageCon">
             <el-tabs type="border-card">
                 <el-tab-pane v-bind:label="$t('message.aboutus').toUpperCase()">
@@ -14,8 +14,8 @@
                         我们旨在溢于细节，让你们卓尔不凡！<br/>
                     </p>
                     <p v-else>
-                        Located in Zhejiang province, Shangyuu yier plastic company ltd. Is a professional producer and supplier of cosmetics packaging
-                        as well as various plastics,including different kinds of plastic packaging .
+                        Located in Zhejiang province, Shangyu yier plastic company ltd. Is a professional producer and supplier of cosmetics packaging
+                        as well as various plastics,including different kinds of plastic packaging.
                         Specifically,Shangyu yier plastic is committed to product design and development including :mold manufacturing,injecton,molding,painting ,packaging as well as testing,process research and development.
                         Shangyu yier’s main product line includes acrylic lotion bottle,jar ,airless jar and a wide variety of other plastic products.<br/>
                         <br/>

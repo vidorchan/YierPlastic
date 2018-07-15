@@ -1,5 +1,6 @@
 <template>
     <div id="proDetails">
+        <p><img src="/static/images/company.jpg" style="width:100%"/></p>
         <div class="pageCon">
             <el-row>
                 <!--<el-col :span="4">-->
@@ -19,7 +20,7 @@
                             </dl>
                             <dl v-if="product.params.plasticType && product.params.plasticType != ''">
                                 <dt>{{$t('product.plasticType')}}:</dt>
-                                <dd>{{product.params.plasticType}}</dd>
+                                <dd>$t({{product.params.plasticType}})</dd>
                             </dl>
                             <dl v-if="product.params.industrialUse && product.params.industrialUse != ''">
                                 <dt>{{$t('product.industrialUse')}}:</dt>
@@ -113,7 +114,7 @@
         },
         watch: {
             "$route": "fetchDate",
-            "this.$i18n.locale": "fetchData"
+            "window.localStorage.lang": "fetchData"
         },
         mounted() {
             this.fetchDate();

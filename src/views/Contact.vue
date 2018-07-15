@@ -1,7 +1,7 @@
 <template>
-    <p>
-        Contact pages
-    </p>
+    <div>
+        <p><img src="/static/images/company.jpg" style="width:100%"/></p>
+    </div>
 </template>
 
 <script>

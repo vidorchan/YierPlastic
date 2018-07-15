@@ -1,6 +1,6 @@
 <template>
     <div id="proReview">
-        <p style="overflow: hidden"><img src="/static/images/company.jpg"/></p>
+        <p><img src="/static/images/company.jpg" style="width:100%"/></p>
         <div class="pageCon">
             <LeftNav></LeftNav>
             <div class="proList">
