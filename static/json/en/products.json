@@ -33,13 +33,13 @@
                     "/static/images/product/2airlessbottle/YE-A-08/38-3.jpg"
                 ],
                 "params": {
-                    "plasticType": "PMMA",
-                    "industrialUse": "cosmetics",
-                    "use": "Skin Care Cream",
-                    "sealingType": "Screw Cap",
-                    "surfaceHandling": "Screen Printing",
+                    "plasticType": "product.pmmaType",
+                    "industrialUse": "product.cosmetics",
+                    "use": "product.skinCream",
+                    "sealingType": "product.screwCap",
+                    "surfaceHandling": "product.screenPrinting",
                     "modelN": "YE-A-08",
-                    "color": "Any color"
+                    "color": "product.anyColor"
                 }
             },
             {

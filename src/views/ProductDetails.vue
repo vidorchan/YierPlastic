@@ -20,23 +20,23 @@
                             </dl>
                             <dl v-if="product.params.plasticType && product.params.plasticType != ''">
                                 <dt>{{$t('product.plasticType')}}:</dt>
-                                <dd>{{product.params.plasticType}}</dd>
+                                <dd v-text="$t(product.params.plasticType)"></dd>
                             </dl>
                             <dl v-if="product.params.industrialUse && product.params.industrialUse != ''">
                                 <dt>{{$t('product.industrialUse')}}:</dt>
-                                <dd>{{product.params.industrialUse}}</dd>
+                                <dd v-text="$t(product.params.industrialUse)"></dd>
                             </dl>
                             <dl v-if="product.params.use && product.params.use != ''">
                                 <dt>{{$t('product.use')}}:</dt>
-                                <dd>{{product.params.use}}</dd>
+                                <dd v-text="$t(product.params.use)"></dd>
                             </dl>
                             <dl v-if="product.params.sealingType && product.params.sealingType != ''">
                                 <dt>{{$t('product.sealingType')}}:</dt>
-                                <dd>{{product.params.sealingType}}</dd>
+                                <dd v-text="$t(product.params.sealingType)"></dd>
                             </dl>
                             <dl v-if="product.params.surfaceHandling && product.params.surfaceHandling != ''">
                                 <dt>{{$t('product.surfaceHandling')}}:</dt>
-                                <dd>{{product.params.surfaceHandling}}</dd>
+                                <dd v-text="$t(product.params.surfaceHandling)"></dd>
                             </dl>
                             <dl>
                                 <dt>{{$t('product.place')}}:</dt>
@@ -48,11 +48,11 @@
                             </dl>
                             <dl v-if="product.params.modelN && product.params.modelN != ''">
                                 <dt>{{$t('product.modelN')}}:</dt>
-                                <dd>{{product.params.modelN}}</dd>
+                                <dd v-text="product.params.modelN"></dd>
                             </dl>
                             <dl v-if="product.params.color && product.params.color != ''">
                                 <dt>{{$t('product.color')}}:</dt>
-                                <dd>{{product.params.color}}</dd>
+                                <dd v-text="$t(product.params.color)"></dd>
                             </dl>
                         </el-tab-pane>
                     </el-tabs>
@@ -74,7 +74,10 @@
         data() {
             return {
                 activeName2: 'first',
-                product: {},
+                product: {
+                    params: {
+                    }
+                }
             }
         },
         methods: {

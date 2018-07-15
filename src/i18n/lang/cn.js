@@ -44,16 +44,22 @@ const cn = {
         material: '材质',
         materialV: '塑料',
         plasticType: '塑料类型',
+        pmmaType: '有机玻璃',
         industrialUse: '工业用途',
+        cosmetics: '化妆品',
         use: '用法',
+        skinCream: '护肤膏霜',
         sealingType: '密封类型',
+        screwCap: '螺帽',
         surfaceHandling: '表面处理',
+        screenPrinting: '丝网印刷',
         place: '原产地',
         placeV: '中国大陆-浙江',
         brand: '品牌',
         brandV: '溢尔',
         modelN: '模型',
-        color: '颜色'
+        color: '颜色',
+        anyColor: '任何颜色'
     },
     team: {
         name: '姓名',

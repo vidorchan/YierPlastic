@@ -46,16 +46,22 @@ const en = {
         material: 'Material',
         materialV: 'Plastic',
         plasticType: 'Plastic Type',
+        pmmaType: 'PMMA',
         industrialUse: 'Industrial Use',
+        cosmetics: 'cosmetics',
         use: 'Use',
+        skinCream: 'Skin Care Cream',
         sealingType: 'Sealing Type',
+        screwCap: 'Screw Cap',
         surfaceHandling: 'Surface Handling',
+        screenPrinting: 'Screen Printing',
         place: 'Place of Origin',
         placeV: 'Zhejiang, China (Mainland)',
         brand: 'Brand Name',
         brandV: 'YIER',
         modelN: 'Model Number',
-        color: 'Color'
+        color: 'Color',
+        anyColor: 'Any Color'
     },
     team: {
         name: 'Name',
