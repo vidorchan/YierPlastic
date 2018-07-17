@@ -182,7 +182,6 @@
     
     .proContainer .bd li {
         width: 264px;
-        height: 200px;
         float: left;
         margin: 0 48px 43px 0;
         overflow: hidden;
@@ -190,8 +189,6 @@
 
     .proContainer .bd li a {
         width: 262px;
-        height: 198px;
-        border: 1px solid #c5c6c7;
         position: relative;
         overflow: hidden;
         display: block;
