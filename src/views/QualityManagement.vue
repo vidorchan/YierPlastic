@@ -32,5 +32,6 @@
         border: 5px solid #ddd;
         padding: 5px;
         background: #fff;
+        border-radius: 10px;
     }
 </style>
