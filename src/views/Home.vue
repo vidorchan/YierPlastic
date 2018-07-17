@@ -11,7 +11,11 @@
                 {{ $t('message.homeAboutDesc')}}
             </div>
             <div style="margin-top: 20px">
-                <el-button type="warning" round>{{ $t('message.cu')}}</el-button>
+                <el-button type="warning" round>
+                    <router-link :to="'/contact'">
+                        {{ $t('message.cu')}}
+                    </router-link>
+                </el-button>
             </div>
         </el-row>
         <!--<el-row class="margin150">-->
@@ -152,3 +156,11 @@
         }
     }
 </script>
+
+<style scoped>
+    button a {
+        color: #ffffff;
+        line-height: 1;
+        font-size: 14px;
+    }
+</style>

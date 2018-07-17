@@ -30,7 +30,7 @@
                     </el-submenu>
                     <el-menu-item index="/qm">{{ $t('message.qm')}}</el-menu-item>
                     <el-menu-item index="/news">{{ $t('message.news')}}</el-menu-item>
-                    <el-menu-item index="/cu">{{ $t('message.cu')}}</el-menu-item>
+                    <el-menu-item index="/contact">{{ $t('message.cu')}}</el-menu-item>
                 </el-menu>
             </div>
         </div>
