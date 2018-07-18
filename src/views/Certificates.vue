@@ -5,7 +5,7 @@
             <el-tabs type="border-card">
                 <el-tab-pane v-bind:label="$t('message.certificates').toUpperCase()">
                     <p v-for="cert in certificates">
-                        <img v-bind:src="cert" style="width: 100%"/>
+                        <img v-bind:src="cert"/>
                     </p>
                 </el-tab-pane>
             </el-tabs>
@@ -34,4 +34,14 @@
 </script>
 <style scoped>
     @import "/static/css/pages.css";
+
+    .el-tab-pane P {
+        text-align: center;
+    }
+    .el-tab-pane img {
+        width: 80%;
+        border: 10px solid #87743c;
+        border-radius: 10px;
+        /*border-image: -webkit-linear-gradient(#ddd, #420d19) 30 30;*/
+    }
 </style>

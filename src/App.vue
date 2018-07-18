@@ -107,7 +107,7 @@
         line-height: 24px;
     }
 
-    .el-row p a span {
+    .el-row p span {
         display: block;
         width: 20px;
         background: #e46713;
@@ -196,7 +196,6 @@
 
     .proContainer .bd li a img {
         width: 262px;
-        height: 198px;
     }
 
     /* home page quality */
