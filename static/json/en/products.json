@@ -23,7 +23,11 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-07",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "80ml", "height": "139.6", "diameter": "47.4"},
+                    {"capacity": "120ml", "height": "168.7", "diameter": "47.4"}
+                ]
             },
             {
                 "pid": 2,
@@ -88,7 +92,13 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-10",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "15ml", "height": "63.1", "diameter": "64"},
+                    {"capacity": "30ml", "height": "63.1", "diameter": "64"},
+                    {"capacity": "50ml", "height": "71.9", "diameter": "64"},
+                    {"capacity": "70ml", "height": "86.5", "diameter": "64"}
+                ]
             },
             {
                 "pid": 5,
@@ -96,7 +106,7 @@
                 "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
                 "imgs": [
                     "/static/images/product/2airlessbottle/YE-A-11/8-1.jpg",
-                    "/static/images/product/2airlessbottle/YE-A-11/8_2.jpg",
+                    "/static/images/product/2airlessbottle/YE-A-11/8-2.jpg",
                     "/static/images/product/2airlessbottle/YE-A-11/feature.jpg"
                 ],
                 "params": {
@@ -107,7 +117,13 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-11",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "15ml", "height": "63.1", "diameter": "64"},
+                    {"capacity": "30ml", "height": "63.1", "diameter": "64"},
+                    {"capacity": "50ml", "height": "71.9", "diameter": "64"},
+                    {"capacity": "70ml", "height": "86.5", "diameter": "64"}
+                ]
             },
             {
                 "pid": 6,
@@ -126,7 +142,13 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-12",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "15ml", "height": "63.1", "diameter": "64"},
+                    {"capacity": "30ml", "height": "63.1", "diameter": "64"},
+                    {"capacity": "50ml", "height": "71.9", "diameter": "64"},
+                    {"capacity": "70ml", "height": "86.5", "diameter": "64"}
+                ]
             }
         ]
     },
@@ -141,7 +163,8 @@
                 "imgs": [
                     "/static/images/product/3familylook/YE-A-01/21-5.jpg",
                     "/static/images/product/3familylook/YE-A-01/35-5.jpg",
-                    "/static/images/product/3familylook/YE-A-01/feature.jpg"
+                    "/static/images/product/3familylook/YE-A-01/feature.jpg",
+                    "/static/images/product/3familylook/YE-A-01/feature2.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -151,14 +174,21 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-01",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "50ml", "height": "62.5", "diameter": "75.7"},
+                    {"capacity": "50ml", "height": "147", "diameter": "42.8"},
+                    {"capacity": "120ml", "height": "200", "diameter": "51"}
+                ]
             },
             {
                 "pid": 2,
                 "pname": "YE-A-02",
                 "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
                 "imgs": [
-                    "/static/images/product/3familylook/YE-A-02/37-5.jpg"
+                    "/static/images/product/3familylook/YE-A-02/37-5.jpg",
+                    "/static/images/product/3familylook/YE-A-02/feature.jpg",
+                    "/static/images/product/3familylook/YE-A-02/feature2.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -168,7 +198,15 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-02",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "30g", "height": "63", "diameter": "66.1"},
+                    {"capacity": "50g", "height": "72", "diameter": "66.1"},
+                    {"capacity": "30ml", "height": "134", "diameter": "40.2"},
+                    {"capacity": "50ml", "height": "159.7", "diameter": "40.2"},
+                    {"capacity": "100ml", "height": "165.5", "diameter": "51.9"},
+                    {"capacity": "120ml", "height": "186.4", "diameter": "51.9"}
+                ]
             },
             {
                 "pid": 3,
@@ -176,7 +214,9 @@
                 "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
                 "imgs": [
                     "/static/images/product/3familylook/YE-A-03/31-5.jpg",
-                    "/static/images/product/3familylook/YE-A-03/40-3.jpg"
+                    "/static/images/product/3familylook/YE-A-03/40-3.jpg",
+                    "/static/images/product/3familylook/YE-A-03/feature.jpg",
+                    "/static/images/product/3familylook/YE-A-03/feature2.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -186,7 +226,15 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-03",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "30g", "height": "56", "diameter": "61.5*61"},
+                    {"capacity": "50g", "height": "64.4", "diameter": "70.9*69"},
+                    {"capacity": "15ml", "height": "121.7", "diameter": "40.9"},
+                    {"capacity": "30ml", "height": "144.2", "diameter": "40.9"},
+                    {"capacity": "100ml", "height": "172", "diameter": "53.7"},
+                    {"capacity": "120ml", "height": "195.6", "diameter": "53.7"}
+                ]
             },
             {
                 "pid": 4,
@@ -194,7 +242,8 @@
                 "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
                 "imgs": [
                     "/static/images/product/3familylook/YE-A-08/38-4.jpg",
-                    "/static/images/product/3familylook/YE-A-08/feature.jpg"
+                    "/static/images/product/3familylook/YE-A-08/feature.jpg",
+                    "/static/images/product/3familylook/YE-A-08/feature2.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -204,7 +253,15 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-08",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "15g", "height": "43.2", "diameter": "62"},
+                    {"capacity": "30g", "height": "48.1", "diameter": "62"},
+                    {"capacity": "50g", "height": "51.7", "diameter": "75.8"},
+                    {"capacity": "15ml", "height": "97.8", "diameter": "40.1"},
+                    {"capacity": "30ml", "height": "127.5", "diameter": "40.1"},
+                    {"capacity": "50ml", "height": "165.3", "diameter": "40.2"}
+                ]
             },
             {
                 "pid": 5,
@@ -212,7 +269,9 @@
                 "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
                 "imgs": [
                     "/static/images/product/3familylook/YE-A-09/4-4.jpg",
-                    "/static/images/product/3familylook/YE-A-09/4-5.jpg"
+                    "/static/images/product/3familylook/YE-A-09/4-5.jpg",
+                    "/static/images/product/3familylook/YE-A-09/feature.jpg",
+                    "/static/images/product/3familylook/YE-A-09/feature2.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -222,7 +281,14 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-09",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "15g", "height": "41", "diameter": "60.5*60.5"},
+                    {"capacity": "30g", "height": "45.2", "diameter": "60.5*60.5"},
+                    {"capacity": "50g", "height": "49.3", "diameter": "68.2*68.2"},
+                    {"capacity": "30ml", "height": "149.7", "diameter": "39.2*39.2"},
+                    {"capacity": "50ml", "height": "167.7", "diameter": "39.2*39.2"}
+                ]
             },
             {
                 "pid": 6,
@@ -234,7 +300,8 @@
                     "/static/images/product/3familylook/YE-A-13/2-4.jpg",
                     "/static/images/product/3familylook/YE-A-13/2-5.jpg",
                     "/static/images/product/3familylook/YE-A-13/10-5.jpg",
-                    "/static/images/product/3familylook/YE-A-13/feature.jpg"
+                    "/static/images/product/3familylook/YE-A-13/feature.jpg",
+                    "/static/images/product/3familylook/YE-A-13/feature2.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -244,7 +311,20 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-13",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "15g", "height": "65", "diameter": "73.3"},
+                    {"capacity": "20g", "height": "65", "diameter": "73.3"},
+                    {"capacity": "20g", "height": "72.2", "diameter": "74"},
+                    {"capacity": "30g", "height": "72.2", "diameter": "74"},
+                    {"capacity": "50g", "height": "78.5", "diameter": "90"},
+                    {"capacity": "70g", "height": "87.5", "diameter": "90"},
+                    {"capacity": "20ml", "height": "146.5", "diameter": "43*54"},
+                    {"capacity": "30ml", "height": "146.5", "diameter": "43*54"},
+                    {"capacity": "50ml", "height": "163", "diameter": "43.5*57"},
+                    {"capacity": "80ml", "height": "181", "diameter": "49*63.5"},
+                    {"capacity": "100ml", "height": "201.5", "diameter": "50*67.5"}
+                ]
             },
             {
                 "pid": 7,
@@ -252,7 +332,8 @@
                 "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
                 "imgs": [
                     "/static/images/product/3familylook/YE-A-14/30-5.jpg",
-                    "/static/images/product/3familylook/YE-A-14/feature.jpg"
+                    "/static/images/product/3familylook/YE-A-14/feature.jpg",
+                    "/static/images/product/3familylook/YE-A-14/feature2.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -262,7 +343,16 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-14",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "15g", "height": "50", "diameter": "70*60.5"},
+                    {"capacity": "30g", "height": "54.5", "diameter": "70*60.5"},
+                    {"capacity": "50g", "height": "61", "diameter": "79.5*67.5"},
+                    {"capacity": "30ml", "height": "114.9", "diameter": "49.6*34.1"},
+                    {"capacity": "60ml", "height": "168.3", "diameter": "49.3*34.2"},
+                    {"capacity": "100ml", "height": "171", "diameter": "60.3*42"},
+                    {"capacity": "120ml", "height": "186.5", "diameter": "60.3*42"}
+                ]
             },
             {
                 "pid": 8,
@@ -271,7 +361,8 @@
                 "imgs": [
                     "/static/images/product/3familylook/YE-A-15/29-5.jpg",
                     "/static/images/product/3familylook/YE-A-15/47-5.jpg",
-                    "/static/images/product/3familylook/YE-A-15/feature.jpg"
+                    "/static/images/product/3familylook/YE-A-15/feature.jpg",
+                    "/static/images/product/3familylook/YE-A-15/feature2.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -281,7 +372,17 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-15",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "15g", "height": "40.9", "diameter": "72.9*60.7"},
+                    {"capacity": "20g", "height": "50", "diameter": "72.9*60.7"},
+                    {"capacity": "30g", "height": "50", "diameter": "72.9*60.7"},
+                    {"capacity": "50g", "height": "52.7", "diameter": "80*68"},
+                    {"capacity": "15ml", "height": "109.8", "diameter": "41*32.9"},
+                    {"capacity": "30ml", "height": "147.8", "diameter": "40.9*32.8"},
+                    {"capacity": "60ml", "height": "158", "diameter": "49.7*40.1"},
+                    {"capacity": "120ml", "height": "177.7", "diameter": "60.6*49.2"}
+                ]
             },
             {
                 "pid": 9,
@@ -289,7 +390,8 @@
                 "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
                 "imgs": [
                     "/static/images/product/3familylook/YE-A-16/49-5.jpg",
-                    "/static/images/product/3familylook/YE-A-16/feature.jpg"
+                    "/static/images/product/3familylook/YE-A-16/feature.jpg",
+                    "/static/images/product/3familylook/YE-A-16/feature2.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -299,7 +401,17 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-16",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "15g", "height": "41.5", "diameter": "53.2"},
+                    {"capacity": "30g", "height": "52.1", "diameter": "61"},
+                    {"capacity": "50g", "height": "61.8", "diameter": "70.6"},
+                    {"capacity": "15ml", "height": "119", "diameter": "40.1"},
+                    {"capacity": "30ml", "height": "140.9", "diameter": "41"},
+                    {"capacity": "60ml", "height": "163.5", "diameter": "50.4"},
+                    {"capacity": "100ml", "height": "167.2", "diameter": "53.8"},
+                    {"capacity": "120ml", "height": "190.7", "diameter": "53.8"}
+                ]
             },
             {
                 "pid": 10,
@@ -308,7 +420,8 @@
                 "imgs": [
                     "/static/images/product/3familylook/YE-A-17/3-5.jpg",
                     "/static/images/product/3familylook/YE-A-17/33-5.jpg",
-                    "/static/images/product/3familylook/YE-A-17/feature.jpg"
+                    "/static/images/product/3familylook/YE-A-17/feature.jpg",
+                    "/static/images/product/3familylook/YE-A-17/feature2.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -318,7 +431,17 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-17",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "15g", "height": "41.5", "diameter": "67.8"},
+                    {"capacity": "20g", "height": "45.6", "diameter": "67.8"},
+                    {"capacity": "30g", "height": "45.6", "diameter": "67.8"},
+                    {"capacity": "50g", "height": "49.7", "diameter": "76.3"},
+                    {"capacity": "30ml", "height": "135.5", "diameter": "38.2"},
+                    {"capacity": "50ml", "height": "156.5", "diameter": "38.2"},
+                    {"capacity": "80ml", "height": "141.7", "diameter": "47.8"},
+                    {"capacity": "120ml", "height": "183.4", "diameter": "47.8"}
+                ]
             },
             {
                 "pid": 11,
@@ -326,7 +449,8 @@
                 "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
                 "imgs": [
                     "/static/images/product/3familylook/YE-A-18/48-5.jpg",
-                    "/static/images/product/3familylook/YE-A-18/feature.jpg"
+                    "/static/images/product/3familylook/YE-A-18/feature.jpg",
+                    "/static/images/product/3familylook/YE-A-18/feature2.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -336,7 +460,15 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-18",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "30g", "height": "56.2", "diameter": "56*56"},
+                    {"capacity": "50g", "height": "62.8", "diameter": "63.7*63.7"},
+                    {"capacity": "15ml", "height": "116", "diameter": "37.2*37.2"},
+                    {"capacity": "30ml", "height": "139.7", "diameter": "36.8*36.8"},
+                    {"capacity": "50ml", "height": "164.6", "diameter": "37*37"},
+                    {"capacity": "100ml", "height": "182.5", "diameter": "45*45"}
+                ]
             },
             {
                 "pid": 12,
@@ -617,8 +749,7 @@
                     "/static/images/product/5creamjar/YE-A-03/31-1.jpg",
                     "/static/images/product/5creamjar/YE-A-03/31-2.jpg",
                     "/static/images/product/5creamjar/YE-A-03/40-1.jpg",
-                    "/static/images/product/5creamjar/YE-A-03/40-2.jpg",
-                    "/static/images/product/5creamjar/YE-A-03/feature.jpg"
+                    "/static/images/product/5creamjar/YE-A-03/40-2.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -635,7 +766,7 @@
                 "pname": "YE-A-04",
                 "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
                 "imgs": [
-                    "/static/images/product/5creamjar/YE-A-03/31-2.jpg"
+                    "/static/images/product/5creamjar/YE-A-04/04.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -645,7 +776,11 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-04",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "30g", "height": "44.7", "diameter": "66.8"},
+                    {"capacity": "50g", "height": "48.9", "diameter": "73.5"}
+                ]
             },
             {
                 "pid": 5,
@@ -666,7 +801,14 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-05",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "80g", "height": "60.3", "diameter": "91"},
+                    {"capacity": "100g", "height": "60.3", "diameter": "91"},
+                    {"capacity": "120g", "height": "60.3", "diameter": "91"},
+                    {"capacity": "150g", "height": "85.9", "diameter": "91"},
+                    {"capacity": "180g", "height": "85.9", "diameter": "91"}
+                ]
             },
             {
                 "pid": 6,
@@ -854,7 +996,10 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-19",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "15g", "height": "35.6", "diameter": "62.6"}
+                ]
             },
             {
                 "pid": 15,
@@ -873,7 +1018,10 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-20",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "", "height": "75", "diameter": "22.5"}
+                ]
             },
             {
                 "pid": 16,
@@ -881,7 +1029,8 @@
                 "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
                 "imgs": [
                     "/static/images/product/5creamjar/YE-A-22/28-1.jpg",
-                    "/static/images/product/5creamjar/YE-A-22/28-2.jpg"
+                    "/static/images/product/5creamjar/YE-A-22/28-2.jpg",
+                    "/static/images/product/5creamjar/YE-A-22/feature.jpg"
                 ],
                 "params": {
                     "plasticType": "PMMA",
@@ -891,7 +1040,14 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-22",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "20g", "height": "45.9", "diameter": "63.4"},
+                    {"capacity": "30g", "height": "45.9", "diameter": "63.4"},
+                    {"capacity": "50g", "height": "51", "diameter": "70"},
+                    {"capacity": "30ml", "height": "154.7", "diameter": "33"},
+                    {"capacity": "100ml", "height": "183.5", "diameter": "42.5"}
+                ]
             },
             {
                 "pid": 17,
@@ -917,7 +1073,11 @@
                     "surfaceHandling": "Screen Printing",
                     "modelN": "YE-A-23",
                     "color": "Any color"
-                }
+                },
+                "size": [
+                    {"capacity": "200g", "height": "69.5", "diameter": "87.5"},
+                    {"capacity": "300g", "height": "76.1", "diameter": "98.5"}
+                ]
             }
         ]
     }
