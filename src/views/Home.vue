@@ -20,7 +20,7 @@
         </el-row>
         <el-row>
             <div id="pro">
-                <p style="width:1200px;margin: 0 auto;clear: both;">
+                <div style="width:1200px;margin: 0 auto;clear: both;">
                     <p>{{ $t('message.po')}}<span></span></p>
                     <div class="proContainer">
                         <div class="hd">
@@ -72,7 +72,7 @@
                             </div>
                         </div>
                     </div>
-                </p>
+                </div>
             </div>
         </el-row>
         <el-row class="homeQuality">
@@ -125,9 +125,9 @@
         data() {
             return {
                 homePics: [
-                    {src: '/static/images/home-carousel-1.png' },
-                    {src: '/static/images/home-carousel-2.png' },
-                    {src: '/static/images/home-carousel-3.png' },
+                    {src: '/static/images/home-carousel-1.jpg' },
+                    {src: '/static/images/home-carousel-2.jpg' },
+                    {src: '/static/images/home-carousel-3.jpg' },
                 ],
                 C1List: [
                     {pid: 1, src: '/static/images/product/2airlessbottle/YE-A-07/42-1.jpg'},

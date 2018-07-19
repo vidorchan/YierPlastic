@@ -32,7 +32,7 @@
 
         </div>
         <p>
-            <img src="/static/images/location.png" style="widows: 100%;"/>
+            <img src="/static/images/location.png"/>
         </p>
     </div>
 </template>
@@ -135,5 +135,11 @@
         width: 100px;
         height: 100px;
         float: right;
+    }
+
+    p img {
+        border: solid rgb(230, 227, 227);
+        padding: 10px;
+        border-radius: 10px;
     }
 </style>
