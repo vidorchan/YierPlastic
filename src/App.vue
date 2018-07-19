@@ -298,11 +298,12 @@
     }
 
     .el-footer {
-        background-color: #b3c0d124;
+        background-color: #efefef;
         color: #000;
         text-align: center;
         font-size: 12px;
         margin-top: 20px;
+        opacity: 0.5;
     }
 
     .el-footer p {

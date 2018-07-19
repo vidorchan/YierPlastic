@@ -10,7 +10,7 @@
                     <el-tabs type="card" v-model="activeName2">
                         <el-tab-pane :label="$t('product.details')" name="first">
                             <p v-for="proImage in product.imgs">
-                                <img v-bind:src="proImage" />
+                                <img v-bind:src="proImage"/>
                             </p>
                         </el-tab-pane>
                         <el-tab-pane :label="$t('product.params')" name="second">
@@ -111,7 +111,6 @@
                             })
                     }
                     this.product = productList[0];
-                    console.log(this.product);
                 }, (response) => {
                     // 请求失败回调
                     console.log("json data failure");
@@ -119,11 +118,9 @@
             },
             specifyEn() {
                 window.localStorage.lang  = this.$i18n.locale = 'en';
-                console.log("new fun");
             },
             specifyCn() {
                 window.localStorage.lang = this.$i18n.locale = 'cn';
-                console.log("new ffff");
             }
         },
         watch: {
@@ -147,6 +144,19 @@
     }
 
     .el-tab-pane p {
+        text-align: center;
+        width: 60%;
+        display: inline-block;
+    }
+
+    .el-tab-pane p img {
+        width: 100%;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    #pane-first {
+        display: inline-block;
         text-align: center;
     }
 

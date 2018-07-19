@@ -55,17 +55,12 @@
                         productList = response.data.filter(function (e) { //返回指定类别的product
                             return e.cid == c_id;
                         })[0];
-                        this.c_name = productList.cname;
+                        if (productList !== undefined) {
+                            this.c_name = productList.cname || '';
+                            this.productList = productList.products;
+                        }
                         this.cid = c_id;
                     }
-
-                    // if (p_id != '') {
-                    //     productList = productList.products.filter(function (e) { //返回指定的product
-                    //         return e.pid == p_id;
-                    //         })[0]
-                    // }
-                    this.productList = productList.products;
-                    console.log(this.productList);
                 }, (response) => {
                     // 请求失败回调
                     console.log("json data failure");
@@ -97,6 +92,7 @@
         width: 20%;
         display: inline-block;
         float: left;
+        background: #efefef;
     }
 
     #proReview .pageCon .proList {
