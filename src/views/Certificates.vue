@@ -20,7 +20,6 @@
             return {
                 certificates: [
                     '/static/images/certificates/cer1.jpg',
-                    '/static/images/certificates/cer2.jpg',
                     '/static/images/certificates/cer3.jpg',
                     '/static/images/certificates/cer4.jpg',
                     '/static/images/certificates/cer5.jpg',
@@ -35,13 +34,24 @@
 <style scoped>
     @import "/static/css/pages.css";
 
+    .pageCon {
+        width: 90%;
+    }
+
     .el-tab-pane P {
-        text-align: center;
+        display: inline;
     }
-    .el-tab-pane img {
-        width: 80%;
-        border: 10px solid #87743c;
-        border-radius: 10px;
-        /*border-image: -webkit-linear-gradient(#ddd, #420d19) 30 30;*/
+
+    .el-tab-pane p img {
+        width: 650px;
+        height: 1000px;
+        margin-bottom: 15px;
+        margin-left: 15px;
     }
+    /*.el-tab-pane img {*/
+        /*width: 80%;*/
+        /*border: 10px solid #87743c;*/
+        /*border-radius: 10px;*/
+        /*!*border-image: -webkit-linear-gradient(#ddd, #420d19) 30 30;*!*/
+    /*}*/
 </style>

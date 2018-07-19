@@ -5,7 +5,7 @@
             <el-tabs type="border-card">
                 <el-tab-pane v-bind:label="$t('message.cd').toUpperCase()">
                     <p v-for="device in devices">
-                        <img v-bind:src="device" style="width: 100%"/>
+                        <img v-bind:src="device"/>
                     </p>
                 </el-tab-pane>
             </el-tabs>
@@ -19,12 +19,12 @@
         data() {
             return {
                 devices: [
+                '/static/images/device/yajichejian3.jpg',
+                '/static/images/device/yajichejian2.jpg',
                 '/static/images/device/baozhuangchejian.jpg',
                 '/static/images/device/mojuchejian.jpg',
                 '/static/images/device/pentuchejian.jpg',
                 '/static/images/device/yajichejian1.jpg',
-                '/static/images/device/yajichejian2.jpg',
-                '/static/images/device/yajichejian3.jpg',
                 '/static/images/device/yinshuanchejian1.jpg',
                 '/static/images/device/yinshuanchejian2.jpg',
                 '/static/images/device/zhijianjiqi1.jpg',
@@ -37,4 +37,12 @@
 
 <style scoped>
     @import "/static/css/pages.css";
+
+    .el-tab-pane p img {
+        width: 100%;
+        border-radius: 20px;
+        border: solid;
+        margin-bottom: 20px;
+    }
+
 </style>

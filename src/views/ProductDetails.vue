@@ -17,7 +17,7 @@
                             <el-table :data="product.size" v-if="product.size" border>
                                 <el-table-column label="Capacity(容量)" prop="capacity" header-align="center" align="center" class-name="test">
                                 </el-table-column>
-                                <el-table-column label="Height(瓶身高-最高)/mm" prop="height" header-align="center" align="center">
+                                <el-table-column label="High(瓶身高-最高)/mm" prop="height" header-align="center" align="center">
                                 </el-table-column>
                                 <el-table-column label="Diameter(瓶身直径-最宽)/mm" prop="diameter" header-align="center" align="center">
                                 </el-table-column>
