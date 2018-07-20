@@ -78,7 +78,6 @@
 
 <style scoped>
     @import "/static/css/pages.css";
-    @import "/static/css/jPages.css";
 
     .pageCon {
         width: 80%;
