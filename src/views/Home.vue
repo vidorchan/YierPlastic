@@ -158,6 +158,9 @@
                     {title: 'message.homeN2T', content: 'message.homeN2D', date: {year: '2018', month: '09', day: '20'}}
                 ]
             }
+        },
+        mounted() {
+            jQuery("#pro .proContainer").slide({titCell:".hd a",mainCell:".bd .tamp",effect:"leftLoop",autoPlay:true});
         }
     }
 </script>
