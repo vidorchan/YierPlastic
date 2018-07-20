@@ -27,7 +27,7 @@
                         Customer satisfaction will always be one of the top goals of our company as well as motivation to continuously improve.Our knowledge ,experience ,and attention to detail will continue to bring quality products to the market .
                         We take the time to this so we can ensure that our customers have the highest quality plastics made to suit their needs .<br/>
                     </p>
-                    <p><img src=""/>图片</p>
+                    <p style="margin-top: 24px;text-align: center;margin-bottom: 12px"><img src="/static/images/company1.jpg"/></p>
                 </el-tab-pane>
             </el-tabs>
         </div>

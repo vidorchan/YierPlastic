@@ -21,7 +21,6 @@
                 devices: [
                 '/static/images/device/yajichejian3.jpg',
                 '/static/images/device/yajichejian2.jpg',
-                '/static/images/device/baozhuangchejian.jpg',
                 '/static/images/device/mojuchejian.jpg',
                 '/static/images/device/pentuchejian.jpg',
                 '/static/images/device/yajichejian1.jpg',
