@@ -31,15 +31,18 @@
             </el-row>
 
         </div>
-        <p>
-            <img src="/static/images/location.png"/>
-        </p>
+        <Map></Map>
     </div>
 </template>
 
 <script>
+    import Map from '~/components/Map'
+    // var map
     export default {
         name: 'Contact',
+        components: {
+            Map
+        },
         data() {
             return {
                 teams: [
@@ -81,7 +84,20 @@
         mounted() {
             goTop: {
                 window.scrollTo(0,0);
-            }
+            };
+        },
+        methods: {
+            // init: function () {
+            //     map = new AMap.Map('container', {
+            //         center: [116.397428, 39.90923],
+            //         resizeEnable: true,
+            //         zoom: 10
+            //     })
+            //     AMap.plugin(['AMap.ToolBar', 'AMap.Scale'], function () {
+            //         map.addControl(new AMap.ToolBar())
+            //         map.addControl(new AMap.Scale())
+            //     })
+            // }
         }
     }
 </script>

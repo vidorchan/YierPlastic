@@ -40,6 +40,9 @@ module.exports = (options = {}) => ({
       }
     ]
   },
+  externals: {
+    'AMap': 'AMap'
+  },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
       names: ['vendor', 'manifest']
