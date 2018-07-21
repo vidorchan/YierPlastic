@@ -3,7 +3,7 @@
         <div class="pageCon">
             <el-row v-for="team in teams">
                 <el-col :span="6" style="text-align: center">
-                    <img class="icon" v-bind:src="team.icon"/>
+                    <img class="icon" v-lazy="team.icon"/>
                 </el-col>
                 <el-col :span="14" class="personInfo">
                     <dl class="marginTop">
@@ -24,22 +24,25 @@
                     </dl>
                 </el-col>
                 <el-col :span="4">
-                    <img class="qcode" v-bind:src="team.qcode"/>
+                    <img class="qcode" v-lazy="team.qcode"/>
                 </el-col>
                 <div style="clear: both; height: 10px;"></div>
                 <hr/>
             </el-row>
 
         </div>
-        <p>
-            <img src="/static/images/location.png"/>
-        </p>
+        <Map></Map>
     </div>
 </template>
 
 <script>
+    import Map from '~/components/Map'
+    // var map
     export default {
         name: 'Contact',
+        components: {
+            Map
+        },
         data() {
             return {
                 teams: [
@@ -81,7 +84,9 @@
         mounted() {
             goTop: {
                 window.scrollTo(0,0);
-            }
+            };
+        },
+        methods: {
         }
     }
 </script>

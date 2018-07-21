@@ -5,7 +5,7 @@
             <el-tabs type="border-card">
                 <el-tab-pane v-bind:label="$t('message.certificates').toUpperCase()">
                     <p v-for="cert in certificates">
-                        <img v-bind:src="cert"/>
+                        <img v-lazy="cert"/>
                     </p>
                 </el-tab-pane>
             </el-tabs>

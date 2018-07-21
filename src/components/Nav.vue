@@ -18,6 +18,7 @@
                         <el-menu-item index="/device">{{ $t('message.cd')}}</el-menu-item>
                         <el-menu-item index="/certificates">{{ $t('message.certificates')}}</el-menu-item>
                         <el-menu-item index="/team">{{ $t('message.tw')}}</el-menu-item>
+                        <el-menu-item index="/culture">{{ $t('message.culture')}}</el-menu-item>
                     </el-submenu>
                     <el-submenu index="/pro">
                         <template slot="title">{{ $t('message.po')}}</template>

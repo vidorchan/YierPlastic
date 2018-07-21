@@ -8,6 +8,7 @@ const en = {
         cd: 'Company Devices',
         certificates: 'Certificates',
         tw: 'Team',
+        culture: 'Company Culture',
         po: 'Product Overview',
         na: 'New Arrival',//0
         is: 'In Stock',//1

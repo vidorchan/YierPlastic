@@ -5,7 +5,7 @@
             <el-tabs type="border-card">
                 <el-tab-pane v-bind:label="$t('message.cd').toUpperCase()">
                     <p v-for="device in devices">
-                        <img v-bind:src="device"/>
+                        <img v-lazy="device"/>
                     </p>
                 </el-tab-pane>
             </el-tabs>
@@ -21,7 +21,6 @@
                 devices: [
                 '/static/images/device/yajichejian3.jpg',
                 '/static/images/device/yajichejian2.jpg',
-                '/static/images/device/baozhuangchejian.jpg',
                 '/static/images/device/mojuchejian.jpg',
                 '/static/images/device/pentuchejian.jpg',
                 '/static/images/device/yajichejian1.jpg',

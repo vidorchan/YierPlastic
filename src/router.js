@@ -5,6 +5,7 @@ import Company from './views/Company'
 import Device from './views/Device'
 import Certificates from './views/Certificates'
 import Team from './views/Team'
+import Culture from './views/Culture'
 import Products from './views/Products'
 import ProductDetails from './views/ProductDetails'
 import QualityManagement from './views/QualityManagement'
@@ -39,6 +40,11 @@ export default new Router({
             path: '/team',
             name: 'team',
             component: Team
+        },
+        {
+            path: '/culture',
+            name: 'culture',
+            component: Culture
         },
         {
             path: '/products',
