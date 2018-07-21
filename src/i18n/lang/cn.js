@@ -8,6 +8,7 @@ const cn = {
         cd: '公司设备',
         certificates: '证书',
         tw: '团队',
+        culture: '公司文化',
         po: '产品展示',
         na: '新货上市',
         is: '现货',
