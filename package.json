@@ -32,6 +32,7 @@
     "rimraf": "^2.5.4",
     "style-loader": "^0.13.2",
     "url-loader": "^0.5.8",
+    "vue-lazyload": "^1.2.6",
     "vue-loader": "^13.3.0",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^2.7.0",

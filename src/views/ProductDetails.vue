@@ -10,7 +10,7 @@
                     <el-tabs type="card" v-model="activeName2">
                         <el-tab-pane :label="$t('product.details')" name="first">
                             <p v-for="proImage in product.imgs">
-                                <img v-bind:src="proImage"/>
+                                <img v-lazy="proImage"/>
                             </p>
                         </el-tab-pane>
                         <el-tab-pane :label="$t('product.params')" name="second">

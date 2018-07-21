@@ -3,7 +3,7 @@
         <div class="pageCon">
             <el-row v-for="team in teams">
                 <el-col :span="6" style="text-align: center">
-                    <img class="icon" v-bind:src="team.icon"/>
+                    <img class="icon" v-lazy="team.icon"/>
                 </el-col>
                 <el-col :span="14" class="personInfo">
                     <dl class="marginTop">
@@ -24,7 +24,7 @@
                     </dl>
                 </el-col>
                 <el-col :span="4">
-                    <img class="qcode" v-bind:src="team.qcode"/>
+                    <img class="qcode" v-lazy="team.qcode"/>
                 </el-col>
                 <div style="clear: both; height: 10px;"></div>
                 <hr/>
@@ -87,17 +87,6 @@
             };
         },
         methods: {
-            // init: function () {
-            //     map = new AMap.Map('container', {
-            //         center: [116.397428, 39.90923],
-            //         resizeEnable: true,
-            //         zoom: 10
-            //     })
-            //     AMap.plugin(['AMap.ToolBar', 'AMap.Scale'], function () {
-            //         map.addControl(new AMap.ToolBar())
-            //         map.addControl(new AMap.Scale())
-            //     })
-            // }
         }
     }
 </script>
