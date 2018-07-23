@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p><img src="/static/images/company.jpg" style="width:100%"/></p>
+        <p><img v-lazy="teamImg" style="max-width: 1200px; width: 100%"/></p>
         <div class="pageCon">
             <el-tabs type="border-card">
                 <el-tab-pane v-bind:label="$t('message.tw').toUpperCase()">
@@ -43,6 +43,7 @@
         name: 'Team',
         data() {
             return {
+                teamImg: '/static/images/team/team.jpg',
                 teams: [
                     {
                         icon: '/static/images/team/P1.png',
@@ -84,6 +85,10 @@
 
 <style scoped>
     @import "/static/css/pages.css";
+
+    .pageCon {
+        margin-top: 0px;
+    }
 
     .icon {
         width: 50%;
@@ -127,5 +132,15 @@
         width: 100px;
         height: 100px;
         float: right;
+    }
+
+    p img {
+        margin-top: 50px;
+    }
+
+    @media screen and  (min-width:1019px) {
+        p img {
+            margin-top: 0px;
+        }
     }
 </style>
