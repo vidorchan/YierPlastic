@@ -133,14 +133,4 @@
         height: 100px;
         float: right;
     }
-
-    p img {
-        margin-top: 50px;
-    }
-
-    @media screen and  (min-width:1019px) {
-        p img {
-            margin-top: 0px;
-        }
-    }
 </style>

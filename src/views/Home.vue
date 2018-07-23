@@ -180,15 +180,4 @@
     .qualityBut a {
         color: #606266;
     }
-
-    .el-main {
-        margin-top: 50px;
-    }
-
-    @media screen and  (min-width:1019px) {
-        .el-main {
-            margin-top: 0px;
-        }
-    }
-
 </style>
