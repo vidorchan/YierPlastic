@@ -48,6 +48,12 @@
         margin-bottom: 15px;
         margin-left: 15px;
     }
+
+    @media screen and  (max-width:1512px) {
+        .pageCon .el-tab-pane {
+            text-align: center;
+        }
+    }
     /*.el-tab-pane img {*/
         /*width: 80%;*/
         /*border: 10px solid #87743c;*/
