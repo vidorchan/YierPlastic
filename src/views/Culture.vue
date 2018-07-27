@@ -3,8 +3,8 @@
         <el-col :span="3"><img src="/static/images/companyQ.jpg"/></el-col>
         <el-col :span="21">
             <el-collapse :data="cultureList">
-                <div v-for="(culture,index) in cultureList">
-                    <el-collapse-item :title="culture.ctitle"  :name="index" >
+                <div v-for="(culture,index) in cultureList" class="itemBorder">
+                    <el-collapse-item :title="culture.ctitle"  :name="index">
                         <pre v-if="culture.firstLine && culture.firstLine != ''">{{ culture.firstLine}}</pre>
                         <div v-if="culture.pics && culture.pics != ''">
                             <div v-for="(pi, index) in culture.pics">
@@ -15,7 +15,7 @@
                                 <pre v-if="pi.afterLine && pi.afterLine != ''">{{pi.afterLine}}</pre>
                             </div>
                         </div>
-                        <pre v-if="culture.lastLine && culture.lastLine != ''">{{ culture.lastLine}}</pre>
+                        <pre v-if="culture.lastLine && culture.lastLine != ''" class="last">{{ culture.lastLine}}</pre>
                     </el-collapse-item>
                 </div>
             </el-collapse>
@@ -58,6 +58,11 @@
 
 <style scoped>
 
+    pre {
+        white-space: pre-wrap;
+        /*font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;*/
+    }
+
     .el-row {
         width: 80%;
         margin: 0 auto;
@@ -72,15 +77,15 @@
         text-align: left;
     }
 
-    .el-collapse-item__header {
-        background: #909399 !important;
-    }
-
-    .el-collapse-item__header .is-active {
-        color: red !important;
+    .itemBorder {
+        border-bottom: 1px solid;
     }
 
     .el-collapse-item__content img{
         width: 70%;
+    }
+
+    .last {
+        margin-bottom: 0px;
     }
 </style>
