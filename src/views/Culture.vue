@@ -1,26 +1,35 @@
 <template>
-    <el-row>
-        <el-col :span="3"><img src="/static/images/companyQ.jpg"/></el-col>
-        <el-col :span="21">
-            <el-collapse :data="cultureList">
-                <div v-for="(culture,index) in cultureList" class="itemBorder">
-                    <el-collapse-item :title="culture.ctitle"  :name="index">
-                        <pre v-if="culture.firstLine && culture.firstLine != ''">{{ culture.firstLine}}</pre>
-                        <div v-if="culture.pics && culture.pics != ''">
-                            <div v-for="(pi, index) in culture.pics">
-                                <pre v-if="pi.beforeLine && pi.beforeLine != ''">{{pi.beforeLine}}</pre>
-                                <div v-if="pi.pic && pi.pic != ''">
-                                    <img v-lazy="pi.pic"/>
+    <div>
+        <el-row>
+            <el-col :span="3"><img src="/static/images/companyQ.jpg"/></el-col>
+            <el-col :span="21">
+                <el-collapse :data="cultureList">
+                    <div v-for="(culture,index) in cultureList" class="itemBorder">
+                        <el-collapse-item :title="culture.ctitle"  :name="index">
+                            <pre v-if="culture.firstLine && culture.firstLine != ''">{{ culture.firstLine}}</pre>
+                            <div v-if="culture.pics && culture.pics != ''">
+                                <div v-for="(pi, index) in culture.pics">
+                                    <pre v-if="pi.beforeLine && pi.beforeLine != ''">{{pi.beforeLine}}</pre>
+                                    <div v-if="pi.pic && pi.pic != ''">
+                                        <img v-lazy="pi.pic"/>
+                                    </div>
+                                    <pre v-if="pi.afterLine && pi.afterLine != ''">{{pi.afterLine}}</pre>
                                 </div>
-                                <pre v-if="pi.afterLine && pi.afterLine != ''">{{pi.afterLine}}</pre>
                             </div>
-                        </div>
-                        <pre v-if="culture.lastLine && culture.lastLine != ''" class="last">{{ culture.lastLine}}</pre>
-                    </el-collapse-item>
-                </div>
-            </el-collapse>
-        </el-col>
-    </el-row>
+                            <pre v-if="culture.lastLine && culture.lastLine != ''" class="last">{{ culture.lastLine}}</pre>
+                        </el-collapse-item>
+                    </div>
+                </el-collapse>
+            </el-col>
+        </el-row>
+        <el-pagination
+            @current-change="handleCurrentChange"
+            :current-page="currentPage"
+            :page-size="pageSize"
+　　　　　　layout="total, prev, pager, next"
+　　　　　　:total="totalDataNumber">
+　　　　</el-pagination>
+    </div>
 </template>
 
 <script>
@@ -32,26 +41,43 @@
     export default {
         data() {
             return {
-                cultureList: []
+                cultureList: [],
+                currentPage: 1,
+                totalDataNumber: 0,
+                pageSize: 12,
+                totalCulture: []
             }
         },
         methods: {
-            fetchDate() {
+
+            handleCurrentChange(currentPage) {
+                console.log(`当前页: ${currentPage}`);
+                this.fetchPageData(currentPage);
+            },
+            fetchTotal() {
                 this.$http.get('/static/json/' + this.$i18n.locale + '/culture.json').then((response) => {
-                    // 请求成功回调
-                    this.cultureList = response.data.sort(down);
+                    this.totalCulture = response.data.sort(down);
+                    this.totalDataNumber = this.totalCulture.length;
                 }, (response) => {
                     // 请求失败回调
                     console.log("json data failure");
                 });
+            },
+            fetchPageData(currentPage) {
+                this.cultureList = this.totalCulture.slice((currentPage-1)*this.pageSize,currentPage*this.pageSize);
             }
         },
         mounted() {
             var _self = this;
-            this.fetchDate();
+            this.fetchTotal();
             EventBus.$on('localeChange',function(){
-                _self.fetchDate();
+                _self.fetchTotal();
             })
+        },
+        watch: {
+            totalCulture: function () {
+                this.fetchPageData(this.currentPage);
+            }
         }
     }
 </script>
@@ -81,11 +107,19 @@
         border-bottom: 1px solid;
     }
 
+    .itemBorder:last-child {
+        border-bottom: none;
+    }
+
     .el-collapse-item__content img{
         width: 70%;
     }
 
     .last {
         margin-bottom: 0px;
+    }
+
+    .el-pagination {
+        margin-top: 20px;
     }
 </style>
