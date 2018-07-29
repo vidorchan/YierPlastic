@@ -42,7 +42,7 @@
 </template>
 
 <script>
-
+    import { EventBus } from '~/event-bus.js';
     export default {
         name: 'Nav',
         data() {
@@ -56,9 +56,11 @@
             },
             specifyEn() {
                 window.localStorage.lang  = this.$i18n.locale = 'en';
+                EventBus.$emit('localeChange', 'en');
             },
             specifyCn() {
                 window.localStorage.lang = this.$i18n.locale = 'cn';
+                EventBus.$emit('localeChange', 'cn');
             }
         }
     }

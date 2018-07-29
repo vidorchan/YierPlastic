@@ -1,0 +1,143 @@
+[
+    {
+        "cid": 1,
+        "ctitle": "春风十里 五十里 一百里 体测八百米 海底两万里 德芙巧克力 可可布朗尼 芝士玉米粒 黄焖辣子鸡 黑椒牛里脊 不如你 全都不如你",
+        "pics": [
+            {"pic": "/static/images/culture/1/1.webp", "afterLine": "约一季春风，\n细数\n你的脚步，\n从天边到眼前……\n像隔世的烟雨，\n醉彼岸的花\n惊艳十里，\n香染水云，\n倚笔燕羽的那些殷勤，\n只为呢喃软语……\n"},
+            {"pic": "/static/images/culture/1/2.webp", "afterLine": "人面不知何处去，桃花依旧笑春风......"}
+        ]
+    },
+    {
+        "cid": 2,
+        "ctitle": "人间四月芳菲尽，山寺桃花始盛开。我们旨在溢于细节，让你们卓尔不凡。",
+        "pics": [
+            {"pic": "/static/images/culture/2/1.webp"},
+            {"beforeLine": "竹外桃花三两枝，春江水暖鸭先知。", "pic": "/static/images/culture/2/2.webp"},
+            {"pic": "/static/images/culture/2/3.webp", "afterLine": "胜日寻芳泗水滨，无边光景一时新。等闲识得东风面，万紫千红总是春。"},
+            {"pic": "/static/images/culture/2/4.webp"},
+            {"pic": "/static/images/culture/2/5.webp"}
+        ],
+        "firstLine": "万树江边杏，新开一夜风。满圆深浅色，照在绿波中。"
+    },
+    {
+        "cid": 3,
+        "ctitle": "最美的遇见—那种遇见美的窒息感",
+        "pics": [
+            {"pic": "/static/images/culture/3/1.webp"},
+            {"beforeLine": "包装如花，花如美人，坚强隐忍，淡雅出尘，更少不了芳香怡人，清丽如诗，盈盈然踩着时光的舞步，娉婷于红尘之中，洒脱绽放于岁月之外，嫣然如画。", "pic": "/static/images/culture/3/2.webp"},
+            {"pic": "/static/images/culture/3/3.webp"}
+        ],
+        "firstLine": "包装如花，花如美人，坚强隐忍，淡雅出尘，更少不了芳香怡人，清丽如诗，盈盈然踩着时光的舞步，娉婷于红尘之中，洒脱绽放于岁月之外，嫣然如画。",
+        "lastLine": "你像一个精灵五彩斑斓，靠着不停地变化色彩来彰显你的大气天成，当他披着金色或者银色的大衣静静站在那里始终端庄，你一次次美妙的尝试和改变愉悦着这个感官的世界"
+    },
+    {
+        "cid": 4,
+        "ctitle": "五月飞花轻折柳，粼粼神光迎艳阳。只盏清茶沁心脾，潜龙物化醉榴花。",
+        "pics": [
+            {"pic": "/static/images/culture/4/1.webp"}
+        ],
+        "firstLine": "五月天的草木繁盛，花儿娇艳。尽收眼底的美丽挥之不去。身心陶醉于此种境地。怎能坐视观天的徜徉与蓝天白云间。辜负这五月花红柳绿的期盼。",
+        "lastLine": "我司将于2018.5.22-5.24在上海新国际博览中心参加第二十三届中国（上海）美容博览会。\n展位号：W4馆B13。\n溢尔塑业恭候广大客户的光临。"
+    },
+    {
+        "cid": 5,
+        "ctitle": "夏初物语",
+        "pics": [
+            {"pic": "/static/images/culture/5/1.webp", "afterLine": "弧骨如妖\n15ml  30ml  100ml  120ml\n30g  50g                                  强势加推"},
+            {"pic": "/static/images/culture/5/2.webp", "afterLine": "星光璀璨\n30ml  50ml  100ml  120ml\n30g  50g                                  火爆热销"}
+        ],
+        "firstLine": "第二十三届中国（上海）美容博览会，我司将于2018.5.22-5.24在上海新国际博览中心W4馆B13等您前来。",
+        "lastLine": "我希望有个如你一般的人\n如山间清爽的风\n如古城温暖的光\n从清晨到夜晚\n由山野到书房\n只要最后是你\n就好"
+    },
+    {
+        "cid": 6,
+        "ctitle": "一心一事 一信一践 溢尔与你相约上海美容博览会",
+        "pics": [
+            {"pic": "/static/images/culture/6/1.webp"},
+            {"pic": "/static/images/culture/6/2.webp"},
+            {"pic": "/static/images/culture/6/3.webp"},
+            {"pic": "/static/images/culture/6/4.webp"}
+        ],
+        "firstLine": "第二十三届 中国（上海）美容博览会，溢尔与你相约上海新国际博览中心W4B13，5.22-5.24届时期待您的光临。",
+        "lastLine": "溢尔塑业 溢于细节 卓尔不凡"
+    },
+    {
+        "cid": 7,
+        "ctitle": "不忘初心，方得始终—做最好的产品，更好地服务客户",
+        "pics": [
+            {"pic": "/static/images/culture/7/1.webp"},
+            {"pic": "/static/images/culture/7/2.webp"},
+            {"beforeLine": "因为你—客户，让我们的产品越来越好。", "pic": "/static/images/culture/7/3.webp"},
+            {"pic": "/static/images/culture/7/4.webp"},
+            {"pic": "/static/images/culture/7/5.webp"}
+        ],
+        "lastLine": "因为你—客户，让我们不断提升，做最好的自己。"
+    },
+    {
+        "cid": 8,
+        "ctitle": "好的包装要通过实践来测试",
+        "pics": [
+            {"pic": "/static/images/culture/8/1.webp"},
+            {"pic": "/static/images/culture/8/2.webp"}
+        ],
+        "firstLine": "一心一事，我们用最纯粹最专一的态度做好每一件事。\n一信一践，我们必将以最真诚的服务去回报每一位客户对我们信任，践行我们的职责。\n这是溢尔的企业文化，也是溢尔对每位客户做出的承诺。\n我们不断成长，以最坚韧的意志迎接所有的挑战。\n我们的眼里没有完美，只有通过实践超越完美，才不辜负您对溢尔的期待。"
+    },
+    {
+        "cid": 9,
+        "ctitle": "小而美，专而精，因为用心，所以专业",
+        "pics": [
+            {"pic": "/static/images/culture/9/1.webp"},
+            {"pic": "/static/images/culture/9/2.webp"},
+            {"pic": "/static/images/culture/9/3.webp"},
+            {"pic": "/static/images/culture/9/4.webp"},
+            {"pic": "/static/images/culture/9/5.webp"},
+            {"pic": "/static/images/culture/9/6.webp"}
+        ],
+        "firstLine": "好的包材向来是专注于细节之把控，配合之精准。瓶器在手把握之中，开合之间行云流水，是为上品。包装外观千奇百怪不外如是，简约，而不简单，我们始终捧一颗初心，承匠人精神，致力于用简练的外形，明朗的线条展现每一个瓶器。"
+    },
+    {
+        "cid": 10,
+        "ctitle": "溢尔出品 必属精品",
+        "pics": [
+            {"pic": "/static/images/culture/10/1.webp"},
+            {"pic": "/static/images/culture/10/2.webp"},
+            {"pic": "/static/images/culture/10/3.webp"},
+            {"pic": "/static/images/culture/10/4.webp"}
+        ],
+        "firstLine": "我们以“质量为根，诚信为本”服务于新老客户，我们坚持“顾客的满意，才是我们的满意；顾客的意见，才是我们前进的力量”。\n我们本着诚信、务实、虚心求学的态度，积极探索本一步一步得以提升：希望我们不断的努力可以带给客户更多的满意和成功。\n"
+    },
+    {
+        "cid": 11,
+        "ctitle": "最好的我们等待最好的你们",
+        "pics": [
+            {"pic": "/static/images/culture/11/1.webp"},
+            {"pic": "/static/images/culture/11/2.webp"},
+            {"beforeLine": "溢尔用心打造好的产品", "pic": "/static/images/culture/11/3.webp"},
+            {"pic": "/static/images/culture/11/4.webp"}
+        ],
+        "firstLine": "六月的阴雨\n六月的沉寂\n六月的懒散\n六月的忧郁\n皆因等待而生，也会因等待的不断更新和不断成长而变的有滋有味，溢尔包材让你们的每次等待都是希望。",
+        "lastLine": "溢尔用心服务每一位客户"
+    },
+    {
+        "cid": 12,
+        "ctitle": "用心做包材，细节是关键",
+        "pics": [
+            {"pic": "/static/images/culture/12/1.webp"},
+            {"pic": "/static/images/culture/12/2.webp"},
+            {"pic": "/static/images/culture/12/3.webp"}
+        ],
+        "firstLine": "众所周知，所有包材都十分注重品质，而产品的细节亦是品质中至关重要的一部分。\n溢尔塑业在产品的注塑、喷涂、印刷直至最后的装配，每一道环节严格把关，争取不出现任何问题。\n在产品的质量问题上，我们一丝不苟\n我们致力于让每一位客户最后拿到的，都是干净、整洁、卫生的达标产品。"
+    },
+    {
+        "cid": 13,
+        "ctitle": "巧艺夺天工",
+        "pics": [
+            {"pic": "/static/images/culture/13/1.webp"},
+            {"pic": "/static/images/culture/13/2.webp"},
+            {"pic": "/static/images/culture/13/3.webp"},
+            {"pic": "/static/images/culture/13/4.webp"},
+            {"pic": "/static/images/culture/13/5.webp"}
+        ],
+        "lastLine": "我来啦，接好！"
+    }
+]
