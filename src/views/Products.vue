@@ -30,9 +30,9 @@
         },
         data() {
             return {
+                productsTotalList: [],
                 productList: [],
                 c_name: '',
-                currentPage1: 1,
                 cid: this.$route.query.cid,
                 totalProducts: "/static/images/product/total-products.jpg"
             }
@@ -46,35 +46,43 @@
             }
         },
         methods: {
+            fetchTotal() {
+                return Promise.resolve(
+                    this.$http.get('/static/json/' + this.$i18n.locale + '/products.json').then((response) => {
+                        this.productsTotalList = response.data;
+                    }, (response) => {
+                        // 请求失败回调
+                        console.log("products json data failure");
+                    })
+                );
+            },
             fetchDate() {
                 var c_id = this.$route.query.cid;
                 var p_id = this.$route.query.pid;
-                this.$http.get('/static/json/' + this.$i18n.locale + '/products.json').then((response) => {
-                    // 请求成功回调
-                    var productList;
-                    if (c_id != '') {
-                        productList = response.data.filter(function (e) { //返回指定类别的product
-                            return e.cid == c_id;
-                        })[0];
-                        if (productList !== undefined) {
-                            this.c_name = productList.cname || '';
-                            this.productList = productList.products;
-                        } else {
-                            this.productList = [];
-                        }
-                        this.cid = c_id;
+                var productList;
+                if (c_id != '') {
+                    productList = this.productsTotalList.filter(function (e) { //返回指定类别的product
+                        return e.cid == c_id;
+                    })[0];
+                    if (productList !== undefined) {
+                        this.c_name = productList.cname || '';
+                        this.productList = productList.products;
+                    } else {
+                        this.productList = [];
                     }
-                }, (response) => {
-                    // 请求失败回调
-                    console.log("json data failure");
-                });
+                    this.cid = c_id;
+                }
             }
         },
         watch: {
             "$route": "fetchDate",
         },
         mounted() {
-            this.fetchDate();
+            this.fetchTotal().then(
+                val => {
+                    this.fetchDate();
+                }
+            )
         }
     }
 </script>
