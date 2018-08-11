@@ -9,13 +9,13 @@
                 <ul id="itemContainer">
                     <li v-for="pro in productList">
                         <router-link :to="'/proDetails?cid=' + cid + '&pid=' + pro.pid">
-                            <img v-bind:src="pro.imgs[0]" />
+                            <img v-lazy="pro.imgs[0]" :key="pro.imgs[0]"/>
                         </router-link>
                     </li>
                 </ul>
             </div>
         </div>
-
+        <img v-lazy="totalProducts" style="width:100%"/>
     </div>
 </template>
 
@@ -33,7 +33,8 @@
                 productList: [],
                 c_name: '',
                 currentPage1: 1,
-                cid: this.$route.query.cid
+                cid: this.$route.query.cid,
+                totalProducts: "/static/images/product/total-products.jpg"
             }
         },
         computed: {
@@ -58,6 +59,8 @@
                         if (productList !== undefined) {
                             this.c_name = productList.cname || '';
                             this.productList = productList.products;
+                        } else {
+                            this.productList = [];
                         }
                         this.cid = c_id;
                     }
@@ -84,7 +87,7 @@
     }
 
     #proReview {
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; **/
     }
 
     #proReview .pageCon .el-menu{
