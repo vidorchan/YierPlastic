@@ -11,7 +11,7 @@
                                 <div v-for="(pi, index) in culture.pics">
                                     <pre v-if="pi.beforeLine && pi.beforeLine != ''">{{pi.beforeLine}}</pre>
                                     <div v-if="pi.pic && pi.pic != ''">
-                                        <img v-lazy="pi.pic"/>
+                                        <img v-lazy="pi.pic" :key="pi.pic"/>
                                     </div>
                                     <pre v-if="pi.afterLine && pi.afterLine != ''">{{pi.afterLine}}</pre>
                                 </div>

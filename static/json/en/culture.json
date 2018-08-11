@@ -1,23 +1,22 @@
 [
     {
         "cid": 1,
-        "ctitle": "[EN]用心做包材，细节是关键",
-        "images": [
-            "/static/images/culture/1/1-1.webp",
-            "/static/images/culture/1/1-2.webp",
-            "/static/images/culture/1/1-3.webp"
-        ],
-        "firstLine":
-            "[ENEN]众所周知，所有包材都十分注重品质，而产品的细节亦是品质中至关重要的一部分。<br/>溢尔塑业在产品的注塑、喷涂、印刷直至最后的装配，每一道环节严格把关，争取不出现任何问题。<br/>在产品的质量问题上，我们一丝不苟'<br/>我们致力于让每一位客户最后拿到的，都是干净、整洁、卫生的达标产品。"
+        "ctitle": "[EN]春风十里 五十里 一百里 体测八百米 海底两万里 德芙巧克力 可可布朗尼 芝士玉米粒 黄焖辣子鸡 黑椒牛里脊 不如你 全都不如你",
+        "pics": [
+            {"pic": "/static/images/culture/1/1.jpg", "afterLine": "约一季春风，\n细数\n你的脚步，\n从天边到眼前……\n像隔世的烟雨，\n醉彼岸的花\n惊艳十里，\n香染水云，\n倚笔燕羽的那些殷勤，\n只为呢喃软语……\n"},
+            {"pic": "/static/images/culture/1/2.jpg", "afterLine": "人面不知何处去，桃花依旧笑春风......"}
+        ]
     },
     {
         "cid": 2,
-        "ctitle": "[EN]春风十里 五十里 一百里 体测八百米 海底两万里 德芙巧克力 可可布朗尼 芝士玉米粒 黄焖辣子鸡 黑椒牛里脊 不如你 全都不如你",
-        "images": [
-            "/static/images/culture/12/12-1.webp",
-            "/static/images/culture/12/12-2.webp"
+        "ctitle": "[EN]人间四月芳菲尽，山寺桃花始盛开。我们旨在溢于细节，让你们卓尔不凡。",
+        "pics": [
+            {"pic": "/static/images/culture/2/1.jpg"},
+            {"beforeLine": "竹外桃花三两枝，春江水暖鸭先知。", "pic": "/static/images/culture/2/2.jpg"},
+            {"pic": "/static/images/culture/2/3.jpg", "afterLine": "胜日寻芳泗水滨，无边光景一时新。等闲识得东风面，万紫千红总是春。"},
+            {"pic": "/static/images/culture/2/4.jpg"},
+            {"pic": "/static/images/culture/2/5.jpg"}
         ],
-        "firstLine":
-        "[ENEN]约一季春风，<br/>细数<br/>你的脚步，<br/>从天边到眼前……"
+        "firstLine": "万树江边杏，新开一夜风。满圆深浅色，照在绿波中。"
     }
 ]
