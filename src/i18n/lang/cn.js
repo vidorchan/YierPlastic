@@ -29,7 +29,7 @@ const cn = {
         homeN1T: '第50届中国（广州）国际美博会',
         homeN1D: '2018.9.2-4 琶洲展馆A区，展位号4.1/J37',
         homeN2T: '2018 泰国曼谷美容展',
-        homeN2D: '2018.9.20-22 曼谷IMPACT 展览中心 W24',
+        homeN2D: '2018.9.20-22 曼谷IMPACT 展览中心 W26',
         homeN3T: '中Bed',
         homeN3D: '中I should go to bed',
         foot: {

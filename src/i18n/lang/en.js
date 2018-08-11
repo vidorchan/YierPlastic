@@ -31,7 +31,7 @@ const en = {
         homeN1T: '50th China(GuangZhou) International Fair',
         homeN1D: 'Booth No. 4.1/J37, A area, Pazhou Exhibition Hall, 2018/9/2-2018/9/4',
         homeN2T: '2018 Thailand Bangkok Beauty Exhibition',
-        homeN2D: 'W24, Bangkok IMPACT Exhibition Center, 2018/9/20-2018/9/22',
+        homeN2D: 'W26, Bangkok IMPACT Exhibition Center, 2018/9/20-2018/9/22',
         homeN3T: 'Bed',
         homeN3D: 'I should go to bed',
         foot: {
