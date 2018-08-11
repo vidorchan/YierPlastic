@@ -82,7 +82,7 @@
                 </div>
                 <img src="/static/images/quality-img.png"/>
                 <el-button round class="qualityBut">
-                    <router-link :to="'/contact'">
+                    <router-link :to="'/qm'">
                         {{ $t('message.qm')}}
                     </router-link>
                 </el-button>
