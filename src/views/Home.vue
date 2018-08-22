@@ -1,6 +1,6 @@
 <template>
     <el-main>
-        <el-carousel height="700px">
+        <el-carousel height="630px">
             <el-carousel-item v-for="item in homePics">
                 <img v-bind:src="item.src"/>
             </el-carousel-item>

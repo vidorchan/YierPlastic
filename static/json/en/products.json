@@ -1,4 +1,95 @@
 [
+	{
+		"cid": 0,
+        "cname": "New Arrival",
+        "products": [
+			{
+                "pid": 1,
+                "pname": "YE-A-01",
+                "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
+                "imgs": [
+                    "/static/images/product/0newarrival/YE-A-01/YE-A-01.jpg"
+                ],
+                "params": {
+                    "plasticType": "product.pmmaType",
+                    "industrialUse": "product.cosmetics",
+                    "use": "product.skinCream",
+                    "sealingType": "product.screwCap",
+                    "surfaceHandling": "product.screenPrinting",
+                    "modelN": "YE-A-01",
+                    "color": "product.anyColor"
+                }
+            },
+			{
+                "pid": 2,
+                "pname": "YE-A-02",
+                "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
+                "imgs": [
+                    "/static/images/product/0newarrival/YE-A-02/YE-A-02.jpg"
+                ],
+                "params": {
+                    "plasticType": "product.pmmaType",
+                    "industrialUse": "product.cosmetics",
+                    "use": "product.skinCream",
+                    "sealingType": "product.screwCap",
+                    "surfaceHandling": "product.screenPrinting",
+                    "modelN": "YE-A-02",
+                    "color": "product.anyColor"
+                }
+            },
+			{
+                "pid": 3,
+                "pname": "YE-A-03",
+                "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
+                "imgs": [
+                    "/static/images/product/0newarrival/YE-A-03/YE-A-03.jpg"
+                ],
+                "params": {
+                    "plasticType": "product.pmmaType",
+                    "industrialUse": "product.cosmetics",
+                    "use": "product.skinCream",
+                    "sealingType": "product.screwCap",
+                    "surfaceHandling": "product.screenPrinting",
+                    "modelN": "YE-A-03",
+                    "color": "product.anyColor"
+                }
+            },
+			{
+                "pid": 4,
+                "pname": "YE-A-04",
+                "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
+                "imgs": [
+                    "/static/images/product/0newarrival/YE-A-04/YE-A-04.jpg"
+                ],
+                "params": {
+                    "plasticType": "product.pmmaType",
+                    "industrialUse": "product.cosmetics",
+                    "use": "product.skinCream",
+                    "sealingType": "product.screwCap",
+                    "surfaceHandling": "product.screenPrinting",
+                    "modelN": "YE-A-04",
+                    "color": "product.anyColor"
+                }
+            },
+			{
+                "pid": 5,
+                "pname": "YE-A-07",
+                "ptitle": "Made in China all kinds of screw cap PP cosmetic airless bottle",
+                "imgs": [
+                    "/static/images/product/0newarrival/YE-A-07/YE-A-07.jpg"
+                ],
+                "params": {
+                    "plasticType": "product.pmmaType",
+                    "industrialUse": "product.cosmetics",
+                    "use": "product.skinCream",
+                    "sealingType": "product.screwCap",
+                    "surfaceHandling": "product.screenPrinting",
+                    "modelN": "YE-A-07",
+                    "color": "product.anyColor"
+                }
+            }
+		]
+	},
     {
         "cid": 2,
         "cname": "Airless Bottle",
