@@ -1,6 +1,8 @@
 <template>
     <div>
-        <!--<p><img src="/static/images/company.jpg" style="width:100%"/></p>-->
+        <el-button type="text" @click="openDesc">
+            <img src="/static/images/zhijiantixi.png" style="width:100%"/>
+        </el-button>
         <p v-for="i in imgs">
             <img v-lazy="i" />
         </p>
@@ -17,6 +19,14 @@
                     "/static/images/device/zhijianjiqi2.jpg"
                 ]
             }
+        },
+        methods: {
+            openDesc() {
+                this.$alert('<div class="el-icon-caret-right" style="line-height: 2em;">' + this.$t('qm.ac') + '</div>'
+                    + '<div class="el-icon-caret-right" style="line-height: 2em;">' +  this.$t('qm.fc') + '</div>', this.$t('qm.qc'), {
+                    dangerouslyUseHTMLString: true
+                });
+            }
         }
     }
 </script>
@@ -28,11 +38,15 @@
         margin-bottom: 20px;
     }
 
-    img{
+    p img{
         width: 80%;
         border: 5px solid #ddd;
         padding: 5px;
         background: #fff;
         border-radius: 10px;
+    }
+
+    .lineHeight {
+        line-height: 2em;
     }
 </style>
