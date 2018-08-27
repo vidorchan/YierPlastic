@@ -128,6 +128,7 @@
                     {src: '/static/images/home-carousel-1.jpg' },
                     {src: '/static/images/home-carousel-2.jpg' },
                     {src: '/static/images/home-carousel-3.jpg' },
+                    {src: '/static/images/home-carousel-4.jpg' }
                 ],
                 C1List: [
                     {pid: 1, src: '/static/images/product/2airlessbottle/YE-A-07/42-1.jpg'},
