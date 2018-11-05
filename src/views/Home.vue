@@ -125,10 +125,9 @@
         data() {
             return {
                 homePics: [
-                    {src: '/static/images/home-carousel-1.jpg' },
-                    {src: '/static/images/home-carousel-2.jpg' },
-                    {src: '/static/images/home-carousel-3.jpg' },
-                    {src: '/static/images/home-carousel-4.jpg' }
+                    {src: '/static/images/home1.jpg' },
+                    {src: '/static/images/home2.jpg' },
+                    {src: '/static/images/home3.jpg' }
                 ],
                 C1List: [
                     {pid: 1, src: '/static/images/product/2airlessbottle/YE-A-07/42-1.jpg'},
@@ -139,23 +138,23 @@
                 C2List: [
                     {pid: 1, src: '/static/images/product/3familylook/YE-A-01/21-5.jpg'},
                     {pid: 6, src: '/static/images/product/3familylook/YE-A-13/1-4.jpg'},
-                    {pid: 8, src: '/static/images/product/3familylook/YE-A-15/29-5.jpg'},
+                    {pid: 8, src: '/static/images/product/3familylook/YE-A-15/1.jpg'},
                     {pid: 10, src: '/static/images/product/3familylook/YE-A-17/3-5.jpg'}
                 ],
                 C3List: [
                     {pid: 1, src: '/static/images/product/4lotionbottle/YE-A-01/21-3.jpg'},
                     {pid: 3, src: '/static/images/product/4lotionbottle/YE-A-03/31-3.jpg'},
                     {pid: 4, src: '/static/images/product/4lotionbottle/YE-A-13/1-2.jpg'},
-                    {pid: 6, src: '/static/images/product/4lotionbottle/YE-A-15/29-3.jpg'}
+                    {pid: 6, src: '/static/images/product/4lotionbottle/YE-A-15/1.jpg'}
                 ],
                 C4List: [
                     {pid: 1, src: '/static/images/product/5creamjar/YE-A-01/21-1.jpg'},
                     {pid: 3, src: '/static/images/product/5creamjar/YE-A-03/31-1.jpg'},
-                    {pid: 10, src: '/static/images/product/5creamjar/YE-A-15/29-1.jpg'},
+                    {pid: 10, src: '/static/images/product/5creamjar/YE-A-15/1.jpg'},
                     {pid: 12, src: '/static/images/product/5creamjar/YE-A-17/3-1.jpg'}
                 ],
                 homeNews: [
-                    {title: 'message.homeN1T', content: 'message.homeN1D', date: {year: '2018', month: '09', day: '02'}},
+                    {title: 'message.homeN1T', content: 'message.homeN1D', date: {year: '2018', month: '11', day: '13'}},
                     {title: 'message.homeN2T', content: 'message.homeN2D', date: {year: '2018', month: '09', day: '20'}}
                 ]
             }
