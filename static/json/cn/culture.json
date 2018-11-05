@@ -139,5 +139,113 @@
             {"pic": "/static/images/culture/13/5.jpg"}
         ],
         "lastLine": "我来啦，接好！"
+    },
+    {
+        "cid": 14,
+        "ctitle": "小瓶子 大作用 溢尔为你呈现不一样的化妆瓶美感",
+        "pics": [
+            {"pic": "/static/images/culture/14/1.jpg"},
+            {"pic": "/static/images/culture/14/2.jpg"},
+            {"pic": "/static/images/culture/14/3.jpg"},
+            {"pic": "/static/images/culture/14/4.jpg"},
+            {"pic": "/static/images/culture/14/5.jpg"}
+        ],
+        "firstLine": "溢尔塑业是一家专业生产化妆品包装的企业。公司致力于产品设计开发，模具制造，注塑，喷涂，包装和检验于一体的工艺流程。\n小小的包材，经过溢尔精心打造，给客户不一样的视觉感受。美轮美奂，我们秉承着提供满意服务和优秀质量为理念，以注重细节为宗旨，以不断创新为动力，以客户满意为目标，集广泛之智慧，吸百家之所长为化妆品的包装带来锦上添花。"
+    },
+    {
+        "cid": 15,
+        "ctitle": "我之所以存在，那是因为你需要我",
+        "pics": [
+            {"pic": "/static/images/culture/15/1.jpg"},
+            {"pic": "/static/images/culture/15/2.jpg"},
+            {"pic": "/static/images/culture/15/3.jpg"},
+            {"pic": "/static/images/culture/15/4.jpg"}
+        ],
+        "firstLi1ne": "因为你的需要我们不断突破自我，使自己变的越来越好。\n因为你的需要我们不断创新，有了越来越多好的产品。\n因为你的需要我们不断提高服务意识，在行业里越来越有竞争力\n因为你的需要我们不断发展，不断成长\n溢尔塑业为您提供高质量的产品，优质的服务，有您的监督我们将越来越好，溢尔的明天也会更美好。",
+        "lastLine": "溢尔推出全新官网：www.yierplasticpacking.com\n第50届中国（广州）国际美博会\n时间：2018年9.2-4琶洲展馆A区\n展位号：4.1/J37\n欢迎新老客户光临指导"
+    },
+    {
+        "cid": 16,
+        "ctitle": "遇见溢尔 与您相约9月花城",
+        "pics": [
+            {"beforeLine": "金秋九月，溢尔新品连连。", "pic": "/static/images/culture/16/1.jpg"},
+            {"beforeLine": "电镀工艺更显层次感，钻石切面华贵高雅，尽显亚克力厚底瓶的质感。如同星光一般璀璨夺目。", "pic": "/static/images/culture/16/2.jpg"},
+            {"beforeLine": "当瘦腰瓶遇上不规则棱角狐妖盖，定义全新狐妖瓶。", "pic": "/static/images/culture/16/3.jpg"},
+            {"beforeLine": "新款韩式圆瓶，展现厚实质感，宛如月光一般熠熠生辉。\n溢于品质，卓尔不凡。\n2018年9月2日-4日，溢尔塑业诚邀您参加第五十届中国（广州）国际美博会，我们在A区4.1/J37期待与您相遇。", "pic": "/static/images/culture/16/4.jpg"}
+        ],
+        "lastLine": "更多新品尽在http://www.yierplasticpacking.com/"
+    },
+    {
+        "cid": 17,
+        "ctitle": "九月溢尔全新来袭",
+        "pics": [
+            {"pic": "/static/images/culture/17/1.jpg"},
+            {"pic": "/static/images/culture/17/2.jpg"},
+            {"pic": "/static/images/culture/17/3.jpg"},
+            {"pic": "/static/images/culture/17/4.jpg"},
+            {"beforeLine":"华丽的包装，朴素的匠心，专心打磨十载，执着于体现亚克力的本质，也是直指初心，通透澄净，给您带来不一样的视觉体验，包装还能如此怡尔", "pic": "/static/images/culture/17/5.jpg"},
+            {"pic": "/static/images/culture/17/6.jpg"}
+        ],
+        "firstLi1ne":"金九银十，姗姗来迟。\n溢尔新品，剔透晶莹。",
+        "lastLine": "溢尔全新官网上线www.yierplasticpacking.com更多产品资讯均可上网查询"
+    },
+    {
+        "cid": 18,
+        "ctitle": "金秋九月，溢尔与您相约曼谷IMPACT展览中心W26",
+        "pics": [
+            {"pic": "/static/images/culture/18/1.jpg"},
+            {"beforeLine": "走在九月的月色下，遐思一如生了双翼的彩凤，从心灵的窗口起飞，拜揖歌舞窈窕的玉宇琼楼。", "pic": "/static/images/culture/18/2.jpg"},
+            {"beforeLine": "在九月的秋风下，我们展望过去，翘首未来。", "pic": "/static/images/culture/18/3.jpg"},
+            {"beforeLine": "广州美博会的热度尚未淡去，泰国美博会又悄然而至，溢尔塑业将为您展现更多精美的产品。\n泰国美容展2018.9.20-22我们在曼谷IMPACT展览中心W26期待与您相遇。", "pic": "/static/images/culture/18/4.jpg"}
+        ],
+        "firstLi1ne":"九月一到，就有了秋意，秋意在一个多雾的黎明溜来，到了炎热的下午便不见踪影。它踮起脚尖掠过树顶，染红几片叶子，然后乘着一簇飞掠过山谷离开。"
+    },
+    {
+        "cid": 19,
+        "ctitle": "之于包材 我们“泰”用心",
+        "pics": [
+            {"pic": "/static/images/culture/19/1.jpg", "afterLine": "也许，机遇不会出现在前进的路上，但是我们始终在向着前进的方向寻找机遇。 ——许不仙"},
+            {"pic": "/static/images/culture/19/2.jpg"},
+            {"beforeLine":"忙碌而又充实的九月，在结束了广州展会以后，我们又匆匆赶赴泰国，东南亚热辣的阳光赋予了泰国人纯天然的热情，展会现场，观展嘉宾络绎不绝，新老朋友相见甚欢。", "pic": "/static/images/culture/19/3.jpg"},
+            {"pic": "/static/images/culture/19/4.jpg"},
+            {"beforeLine":"华丽的包装，朴素的匠心，专心打磨十载，执着于体现亚克力的本质，也是直指初心，通透澄净，给您带来不一样的视觉体验，包装还能如此怡尔", "pic": "/static/images/culture/19/5.jpg"},
+            {"pic": "/static/images/culture/19/6.jpg", "afterLine": "人们都说日出是最美的，但我觉得日出就是日落，当这里的夕阳西下后，就会从地球的另一面悄然升起，一如我们一边开始，同时也在结束，但何尝不是另一段旅程的开端呢"},
+            {"beforeLine":"溢尔塑业2018香港亚太区美容展 2018年11月13日-15日  展会号9-H30", "pic": "/static/images/culture/19/7.jpg"}
+        ],
+        "lastLine": "溢尔全新官网上线www.yierplasticpacking.com更多产品资讯均可上网查询"
+    },
+    {
+        "cid": 20,
+        "ctitle": "金秋十月，溢尔精心打造现货备战双十一",
+        "pics": [
+            {"pic": "/static/images/culture/20/1.jpg"},
+            {"pic": "/static/images/culture/20/2.jpg"}
+        ],
+        "firstLi1ne":"九月，溢尔赶赴广州展和泰国展，新老客户络绎不绝。\n十月溢尔精心打造现货备战双十一。\n电镀狐妖膏霜瓶，尊贵典雅。\nPP真空瓶，简单实用。",
+        "lastLine": "溢尔塑业与你相约2018香港亚太区美容展 11月13-15日\n亚洲国际博览中心 展位号 9-H30\n更多资讯，详见溢尔官网：www.yierplasticpacking.com"
+    },
+    {
+        "cid": 21,
+        "ctitle": "十月：硕果累累的季节",
+        "pics": [
+            {"pic": "/static/images/culture/21/1.jpg"},
+            {"pic": "/static/images/culture/21/2.jpg"},
+            {"pic": "/static/images/culture/21/3.jpg"},
+            {"pic": "/static/images/culture/21/4.jpg"}
+        ],
+        "firstLi1ne":"十月，新的开始，新的坚持，十月的色彩很鲜艳，十月的阳光很灿烂，十月的生日很隆重，十月的日子很辉煌，十月是一硕果累累的一个月，溢尔塑业也是同样的硕果累累。\n十月溢尔推出了多款现货产品供大家选购：",
+        "lastLine": "下个月我们又将迎来香港亚太美容展，期待在此展会上与您结识、合作。\n香港亚太区美容展 亚洲国际博览馆 11月13-15号 展位号：9-H30\n更过资讯请关注溢尔官网：www.yierplasticpacking.com"
+    },
+    {
+        "cid": 22,
+        "ctitle": "香港亚太区美容展重磅来袭",
+        "pics": [
+            {"pic": "/static/images/culture/22/1.jpg", "afterLine": "也许，机遇不会出现在前进的路上，但是我们始终在向着前进的方向寻找机遇。 ——许不仙"},
+            {"beforeLine":"千万，不要拿着别人的地图，去走自己的路，我们的未来，只在我们自己脚下","pic": "/static/images/culture/22/2.jpg"},
+            {"beforeLine":"放弃不难，但坚持一定很酷，从众不难，但独树一帜一定与众不同。", "pic": "/static/images/culture/22/3.jpg"},
+            {"beforeLine":"要创新需要一定的灵感，这灵感不是天生的，而是来自长期的积累与全身心的投入。没有积累就不会有创新。夯实基础，积累质变，厚积薄发", "pic": "/static/images/culture/22/4.jpg"}
+        ],
+        "firstLi1ne":"一切美好的事物都是曲折地接近自己的目标，朦胧的掩饰着美丽，一切笔直都是骗人的，所有真实都是弯曲的，时间本身就是一个圆圈。",
+        "lastLine": "香港亚太区美容展 亚洲国际博览馆 11月13-15号\n展位号：9-H30\n恭候光临"
     }
 ]
