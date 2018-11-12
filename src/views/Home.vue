@@ -132,7 +132,7 @@
                 ],
                 C1List: [
                     {pid: 1, src: '/static/images/product/2airlessbottle/YE-A-07/1.jpg'},
-                    {pid: 3, src: '/static/images/product/2airlessbottle/YE-A-08/1.jpg'},
+                    {pid: 2, src: '/static/images/product/2airlessbottle/YE-A-08/1.jpg'},
                     {pid: 4, src: '/static/images/product/2airlessbottle/YE-A-10/1.jpg'},
                     {pid: 6, src: '/static/images/product/2airlessbottle/YE-A-12/1.jpg'}
                 ],
