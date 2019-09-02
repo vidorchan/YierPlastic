@@ -155,8 +155,8 @@
                     {pid: 12, src: '/static/images/product/5creamjar/YE-A-17/1.jpg'}
                 ],
                 homeNews: [
-                    {title: 'message.homeN1T', content: 'message.homeN1D', date: {year: '2018', month: '11', day: '13'}},
-                    {title: 'message.homeN2T', content: 'message.homeN2D', date: {year: '2018', month: '09', day: '20'}}
+                    {title: 'message.homeN1T', content: 'message.homeN1D', date: {year: '2019', month: '09', day: '19'}},
+                    {title: 'message.homeN2T', content: 'message.homeN2D', date: {year: '2019', month: '11', day: '12'}}
                 ]
             }
         },
